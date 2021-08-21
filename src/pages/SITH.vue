@@ -17,7 +17,9 @@ pipe<template>
     </div>
 
     <JobInformation :uuid="professionUUID" code="1311"></JobInformation>
+
     <h1>Other similar jobs</h1>
+
     <JobInformation :uuid="professionUUID"  code="1334" compareCode="1311"></JobInformation>
     <JobInformation :uuid="professionUUID" code="1494" compareCode="1311"></JobInformation>
     <JobInformation :uuid="professionUUID"></JobInformation>

@@ -1,10 +1,10 @@
 <template>
-<div class="card my-9 p-9">
-  What do/does <b>{{ classificationItemData['title'] }}</b> do?
-  <hr>
-  <span v-html="classificationItemData['explanatoryNotes'].trunc(500)"></span>
+<div class="card my-3 p-3">
   <div class="row">
     <div class="col-8">
+      What do <b>{{ classificationItemData['title'] }}</b> do?
+      <hr>
+      <span v-html="classificationItemData['explanatoryNotes'].trunc(500)"></span>
     </div>
     <div class="col-4">
       <PayGraphSection :anzsco-code="code" :compare-code="compareCode" />
