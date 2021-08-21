@@ -24,9 +24,9 @@
       <p>Pay and concordance information is only available for 4-digit anzsco codes. Others may not work properly</p>
         Good options are:
         <ul>
-          <li>1333 - Importers, Exporters and Wholesalers</li>
-          <li>2322 - Surveyors and Spatial Scientists</li>
-          <li>6311 - Checkout Operators and Office Cashiers</li>
+          <li><strong>1333</strong> - Importers, Exporters and Wholesalers</li>
+          <li><strong>2322</strong> - Surveyors and Spatial Scientists</li>
+          <li><strong>6311</strong> - Checkout Operators and Office Cashiers</li>
         </ul>
       <h2>Why is it called SITH?</h2>
       <p>
@@ -41,7 +41,7 @@
     </div>
     <div v-else>
       <JobInformation :uuid="professionUUID" :main-occupation="true" code="1311"></JobInformation>
-      <h2 class="text-cente underline">Other similar jobs</h2>
+      <h2 class="text-center underline">Other similar jobs</h2>
       <div v-for="item in similarClassificationItems" :key="item['item_id']">
         <JobInformation :uuid="item['item_id']" :common-skills="item['skills']" :code="item['code']" :compare-code="item['compare_code']"></JobInformation>
       </div>
