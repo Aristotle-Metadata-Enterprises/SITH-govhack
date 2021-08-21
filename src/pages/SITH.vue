@@ -1,4 +1,3 @@
-pipe
 <template>
   <div class="home-page">
     <div class="jumbotron bg-light">
@@ -16,11 +15,7 @@ pipe
         />
       </div>
     </div>
-    <Loading v-if="!ready"></Loading>
-    <div v-if="!professionUUID">
-      <h1>SAM SAM SAM ADD SOME SHIT HERE</h1>
-    </div>
-    <div v-else>
+    <div>
       <JobInformation :uuid="professionUUID" code="1494"></JobInformation>
       
       <h1>Other similar jobs</h1>
@@ -28,6 +23,7 @@ pipe
       <JobInformation :uuid="professionUUID"  code="1311" compareCode="1494"></JobInformation>
       <JobInformation :uuid="professionUUID" code="1334" compareCode="1494"></JobInformation>
       <JobInformation :uuid="professionUUID"></JobInformation>
+    </div>
   </div>
 </template>
 
