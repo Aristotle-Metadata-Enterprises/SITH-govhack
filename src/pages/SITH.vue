@@ -15,9 +15,10 @@ pipe<template>
         />
       </div>
     </div>
-    <JobInformation uuid="Receptionist"></JobInformation>
+    <JobInformation uuid="Receptionist" code="1311"></JobInformation>
     <h1>Other similar jobs</h1>
-    <JobInformation uuid="Special Forces Solider"></JobInformation>
+    <JobInformation uuid="Special Forces Solider"  code="1334" compareCode="1311"></JobInformation>
+    <JobInformation uuid="A regular cook... not a canibal" code="1494" compareCode="1311"></JobInformation>
     <JobInformation uuid="Petty Criminal"></JobInformation>
 
   </div>

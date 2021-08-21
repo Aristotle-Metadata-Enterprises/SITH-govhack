@@ -41,7 +41,7 @@
         "@fortawesome/fontawesome-free": "^5.15.1",
         "axios": "^0.19.2",
         "bootstrap": "^4.5.2",
-        "chart.js": "^2.9.3",
+        "chart.js": "^2.9.4",
         "color-scheme": "^1.0.1",
         "core-js": "^3.6.5",
         "country-iso-3-to-2": "^1.1.0",

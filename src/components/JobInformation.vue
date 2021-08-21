@@ -1,8 +1,13 @@
 <template>
-<div>
-  {{ uuid }}
-
-  <PayGraphSection anzsco_code="4321" />
+<div class="card my-3 p-3">
+  <div class="row">
+    <div class="col-8">
+      {{ uuid }}
+    </div>
+    <div class="col-4">
+      <PayGraphSection :anzsco-code="code" :compare-code="compareCode" />
+    </div>
+  </div>
 </div>
 </template>
 
@@ -15,9 +20,17 @@ import PayGraphSection from 'src/components/PayGraphSection.vue'
 
 export default {
   name: "JobInformation",
-  components: [PayGraphSection],
+  components: {PayGraphSection},
   props: {
     uuid: {
+      type: String,
+      default: null
+    },
+    code: {
+      type: String,
+      default: null
+    },
+    compareCode: {
       type: String,
       default: null
     }
