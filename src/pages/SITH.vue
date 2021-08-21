@@ -22,12 +22,10 @@ pipe
     </div>
     <div>
       <JobInformation :uuid="professionUUID" code="1311"></JobInformation>
-
       <h1>Other similar jobs</h1>
-
-      <JobInformation :uuid="professionUUID" code="1334" compareCode="1311"></JobInformation>
-      <JobInformation :uuid="professionUUID" code="1494" compareCode="1311"></JobInformation>
-      <JobInformation :uuid="professionUUID"></JobInformation>
+      <div v-for="item in similarClassificationItems" :key="item['item_id']">
+        <JobInformation :uuid="item['item_id']" code="1334" compareCode="1311"></JobInformation>
+      </div>
     </div>
   </div>
 </template>
@@ -76,7 +74,9 @@ export default {
       this.ready = false
       let similarProfessionPromise = axios.get(this.similarClassificationItemEndpoint)
       similarProfessionPromise.then((data) => {
-        this.similarClassificationItems = data.data
+        for (let item of data.data['similar items']) {
+          this.similarClassificationItems.push({'item_id': item['item_id'], 'similarity' : item['similarity']})
+        }
       }).catch((error) => {
         this.errors.push(error)
       }).finally(() => {

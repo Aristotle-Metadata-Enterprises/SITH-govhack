@@ -1,16 +1,16 @@
 <template>
-<div class="card my-3 p-3">
-  <div class="row">
-    <div class="col-8">
-      What do <b>{{ classificationItemData['title'] }}</b> do?
-      <hr>
-      <span v-html="classificationItemData['explanatoryNotes'].trunc(250)"></span>
-    </div>
-    <div class="col-4">
-      <PayGraphSection :anzsco-code="code" :compare-code="compareCode" />
+  <div class="card my-3 p-3">
+    <div class="row">
+      <div class="col-8">
+        What do <b>{{ classificationItemData['title'] }}</b> do?
+        <hr>
+        <span v-html="classificationItemData['explanatoryNotes'].trunc(250)"></span>
+      </div>
+      <div class="col-4">
+        <PayGraphSection :anzsco-code="code" :compare-code="compareCode"/>
+      </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -23,9 +23,9 @@ import PayGraphSection from 'src/components/PayGraphSection.vue'
 
 // This would be illegal in production - but guess what? we're not in production
 String.prototype.trunc =
-      function(n){
-          return this.substr(0,n-1)+(this.length>n?'&hellip;':'');
-      };
+    function (n) {
+      return this.substr(0, n - 1) + (this.length > n ? '&hellip;' : '');
+    };
 
 export default {
   name: "JobInformation",
@@ -48,6 +48,14 @@ export default {
     classificationItemData: null,
     errors: []
   }),
+  mounted: function () {
+    queryClassificationItem(this.uuid).then((data) => {
+      this.classificationItemData = data.edges[0].node
+    }).catch((error) => {
+      this.errors.push(error)
+    }).finally(() => {
+    })
+  },
   watch: {
     uuid: function () {
       queryClassificationItem(this.uuid).then((data) => {
