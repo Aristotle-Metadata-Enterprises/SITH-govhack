@@ -6,7 +6,7 @@
     "scripts": {
         "serve": "webpack-dev-server --config ../SITH-govhack/webpack.dev.js --hot",
         "build:dev": "webpack --config ../SITH-govhack/webpack.dev.js --watch",
-        "build": "webpack --config ../SITH-govhack/webpack.prod.js",
+        "build": "webpack --config ./webpack.prod.js",
         "lint": "eslint --ext .js,.vue ./src"
     },
     "repository": {
