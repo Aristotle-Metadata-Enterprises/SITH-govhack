@@ -1,6 +1,5 @@
-[
-  {
-    "Occupation": "1113 Legislators",
+{
+"1113": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": null,
@@ -8,8 +7,7 @@
     "Female Average Age": 0,
     "Person Average Age": null
   },
-  {
-    "Occupation": "1212 Crop farmers",
+"1212": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1710.1,
@@ -17,8 +15,7 @@
     "Female Average Age": null,
     "Person Average Age": 40.9
   },
-  {
-    "Occupation": "1213 Livestock farmers",
+"1213": {
     "Male Weekly Earnings": 822.3,
     "Female Weekly Earnings": 2266.4,
     "Person Weekly Earnings": 1632.4,
@@ -26,8 +23,7 @@
     "Female Average Age": 35.4,
     "Person Average Age": 43.2
   },
-  {
-    "Occupation": "1214 Mixed crop and livestock farmers",
+"1214": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": null,
@@ -35,8 +31,7 @@
     "Female Average Age": 0,
     "Person Average Age": null
   },
-  {
-    "Occupation": "1311 Advertising and sales managers",
+"1311": {
     "Male Weekly Earnings": 2588.5,
     "Female Weekly Earnings": 2375.9,
     "Person Weekly Earnings": 2510.3,
@@ -44,8 +39,7 @@
     "Female Average Age": 40.9,
     "Person Average Age": 43.6
   },
-  {
-    "Occupation": "1321 Corporate services managers",
+"1321": {
     "Male Weekly Earnings": 3001,
     "Female Weekly Earnings": 2561.4,
     "Person Weekly Earnings": 2814,
@@ -53,8 +47,7 @@
     "Female Average Age": 48.2,
     "Person Average Age": 47.4
   },
-  {
-    "Occupation": "1322 Finance managers",
+"1322": {
     "Male Weekly Earnings": 3184.8,
     "Female Weekly Earnings": 2752,
     "Person Weekly Earnings": 3036.6,
@@ -62,8 +55,7 @@
     "Female Average Age": 46.4,
     "Person Average Age": 46.5
   },
-  {
-    "Occupation": "1323 Human resource managers",
+"1323": {
     "Male Weekly Earnings": 3226.7,
     "Female Weekly Earnings": 2451.6,
     "Person Weekly Earnings": 2831.1,
@@ -71,8 +63,7 @@
     "Female Average Age": 45.1,
     "Person Average Age": 45.1
   },
-  {
-    "Occupation": "1324 Policy and planning managers",
+"1324": {
     "Male Weekly Earnings": 2713.7,
     "Female Weekly Earnings": 2306.7,
     "Person Weekly Earnings": 2527.1,
@@ -80,8 +71,7 @@
     "Female Average Age": 45.1,
     "Person Average Age": 46.3
   },
-  {
-    "Occupation": "1325 Research and development managers",
+"1325": {
     "Male Weekly Earnings": 3428.6,
     "Female Weekly Earnings": 2771.7,
     "Person Weekly Earnings": 3224.5,
@@ -89,8 +79,7 @@
     "Female Average Age": 44.8,
     "Person Average Age": 48.3
   },
-  {
-    "Occupation": "1331 Construction managers",
+"1331": {
     "Male Weekly Earnings": 2371.4,
     "Female Weekly Earnings": 4009.7,
     "Person Weekly Earnings": 2453.2,
@@ -98,8 +87,7 @@
     "Female Average Age": 41.6,
     "Person Average Age": 46.3
   },
-  {
-    "Occupation": "1332 Engineering managers",
+"1332": {
     "Male Weekly Earnings": 3542.7,
     "Female Weekly Earnings": 3166,
     "Person Weekly Earnings": 3476.7,
@@ -107,8 +95,7 @@
     "Female Average Age": 45.3,
     "Person Average Age": 48
   },
-  {
-    "Occupation": "1333 Importers, exporters and wholesalers",
+"1333": {
     "Male Weekly Earnings": 1608,
     "Female Weekly Earnings": 1851.1,
     "Person Weekly Earnings": 1662,
@@ -116,8 +103,7 @@
     "Female Average Age": 51.9,
     "Person Average Age": 46.8
   },
-  {
-    "Occupation": "1334 Manufacturers",
+"1334": {
     "Male Weekly Earnings": 1586.2,
     "Female Weekly Earnings": 1896.6,
     "Person Weekly Earnings": 1660,
@@ -125,8 +111,7 @@
     "Female Average Age": 57.5,
     "Person Average Age": 56
   },
-  {
-    "Occupation": "1335 Production managers",
+"1335": {
     "Male Weekly Earnings": 2555.2,
     "Female Weekly Earnings": 1663.9,
     "Person Weekly Earnings": 2415.3,
@@ -134,8 +119,7 @@
     "Female Average Age": 46.6,
     "Person Average Age": 48.4
   },
-  {
-    "Occupation": "1336 Supply and distribution managers",
+"1336": {
     "Male Weekly Earnings": 2617.9,
     "Female Weekly Earnings": 2036.7,
     "Person Weekly Earnings": 2451.1,
@@ -143,8 +127,7 @@
     "Female Average Age": 46.9,
     "Person Average Age": 45.3
   },
-  {
-    "Occupation": "1341 Child care centre managers",
+"1341": {
     "Male Weekly Earnings": 0,
     "Female Weekly Earnings": 1300.1,
     "Person Weekly Earnings": 1300.1,
@@ -152,8 +135,7 @@
     "Female Average Age": 40.9,
     "Person Average Age": 40.9
   },
-  {
-    "Occupation": "1342 Health and welfare services managers",
+"1342": {
     "Male Weekly Earnings": 2306.1,
     "Female Weekly Earnings": 2263.5,
     "Person Weekly Earnings": 2279.2,
@@ -161,8 +143,7 @@
     "Female Average Age": 49.7,
     "Person Average Age": 48.8
   },
-  {
-    "Occupation": "1343 School principals",
+"1343": {
     "Male Weekly Earnings": 2800.8,
     "Female Weekly Earnings": 2436,
     "Person Weekly Earnings": 2552.2,
@@ -170,8 +151,7 @@
     "Female Average Age": 48,
     "Person Average Age": 47.2
   },
-  {
-    "Occupation": "1344 Other education managers",
+"1344": {
     "Male Weekly Earnings": 2648,
     "Female Weekly Earnings": 2476.2,
     "Person Weekly Earnings": 2555.1,
@@ -179,8 +159,7 @@
     "Female Average Age": 48.2,
     "Person Average Age": 48.3
   },
-  {
-    "Occupation": "1351 ICT managers",
+"1351": {
     "Male Weekly Earnings": 3311.4,
     "Female Weekly Earnings": 3162.1,
     "Person Weekly Earnings": 3287.6,
@@ -188,8 +167,7 @@
     "Female Average Age": 45.9,
     "Person Average Age": 45.9
   },
-  {
-    "Occupation": "1391 Commissioned officers (management)",
+"1391": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 2841.8,
@@ -197,8 +175,7 @@
     "Female Average Age": null,
     "Person Average Age": 52.1
   },
-  {
-    "Occupation": "1399 Other specialist managers",
+"1399": {
     "Male Weekly Earnings": 2619.7,
     "Female Weekly Earnings": 2303.8,
     "Person Weekly Earnings": 2509.9,
@@ -206,8 +183,7 @@
     "Female Average Age": 45.6,
     "Person Average Age": 45.7
   },
-  {
-    "Occupation": "1411 Cafe and restaurant managers",
+"1411": {
     "Male Weekly Earnings": 1368,
     "Female Weekly Earnings": 1134.9,
     "Person Weekly Earnings": 1254.3,
@@ -215,8 +191,7 @@
     "Female Average Age": 39.9,
     "Person Average Age": 41.6
   },
-  {
-    "Occupation": "1412 Caravan park and camping ground managers",
+"1412": {
     "Male Weekly Earnings": 922.7,
     "Female Weekly Earnings": 771,
     "Person Weekly Earnings": 887.2,
@@ -224,8 +199,7 @@
     "Female Average Age": 38.6,
     "Person Average Age": 53.6
   },
-  {
-    "Occupation": "1413 Hotel and motel managers",
+"1413": {
     "Male Weekly Earnings": 1506.9,
     "Female Weekly Earnings": 1116.1,
     "Person Weekly Earnings": 1357.4,
@@ -233,8 +207,7 @@
     "Female Average Age": 48.2,
     "Person Average Age": 44.9
   },
-  {
-    "Occupation": "1414 Licensed club managers",
+"1414": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1494.1,
@@ -242,8 +215,7 @@
     "Female Average Age": null,
     "Person Average Age": 49.4
   },
-  {
-    "Occupation": "1419 Other accommodation and hospitality managers",
+"1419": {
     "Male Weekly Earnings": 2231.3,
     "Female Weekly Earnings": 1605.6,
     "Person Weekly Earnings": 2001.7,
@@ -251,8 +223,7 @@
     "Female Average Age": 52.6,
     "Person Average Age": 48.7
   },
-  {
-    "Occupation": "1421 Retail managers",
+"1421": {
     "Male Weekly Earnings": 1410,
     "Female Weekly Earnings": 1478.8,
     "Person Weekly Earnings": 1432.1,
@@ -260,8 +231,7 @@
     "Female Average Age": 41.9,
     "Person Average Age": 42.8
   },
-  {
-    "Occupation": "1491 Amusement, fitness and sports centre managers",
+"1491": {
     "Male Weekly Earnings": 1461.3,
     "Female Weekly Earnings": 1098.3,
     "Person Weekly Earnings": 1309.4,
@@ -269,8 +239,7 @@
     "Female Average Age": 40.2,
     "Person Average Age": 36.3
   },
-  {
-    "Occupation": "1492 Call or contact centre and customer service managers",
+"1492": {
     "Male Weekly Earnings": 2022.5,
     "Female Weekly Earnings": 2023.2,
     "Person Weekly Earnings": 2022.8,
@@ -278,8 +247,7 @@
     "Female Average Age": 46.7,
     "Person Average Age": 46.3
   },
-  {
-    "Occupation": "1493 Conference and event organisers",
+"1493": {
     "Male Weekly Earnings": 1460.2,
     "Female Weekly Earnings": 1412.1,
     "Person Weekly Earnings": 1419,
@@ -287,8 +255,7 @@
     "Female Average Age": 36.7,
     "Person Average Age": 37.1
   },
-  {
-    "Occupation": "1494 Transport services managers",
+"1494": {
     "Male Weekly Earnings": 1947.1,
     "Female Weekly Earnings": 2040.4,
     "Person Weekly Earnings": 1957.9,
@@ -296,8 +263,7 @@
     "Female Average Age": 39.4,
     "Person Average Age": 47.1
   },
-  {
-    "Occupation": "1499 Other hospitality, retail and service managers",
+"1499": {
     "Male Weekly Earnings": 2028.7,
     "Female Weekly Earnings": 1679.1,
     "Person Weekly Earnings": 1930.6,
@@ -305,8 +271,7 @@
     "Female Average Age": 40.6,
     "Person Average Age": 46.3
   },
-  {
-    "Occupation": "2111 Actors, dancers and other entertainers",
+"2111": {
     "Male Weekly Earnings": 1201.8,
     "Female Weekly Earnings": 762,
     "Person Weekly Earnings": 1005.7,
@@ -314,8 +279,7 @@
     "Female Average Age": 29.4,
     "Person Average Age": 29.7
   },
-  {
-    "Occupation": "2112 Music professionals",
+"2112": {
     "Male Weekly Earnings": 831.9,
     "Female Weekly Earnings": 401.2,
     "Person Weekly Earnings": 707,
@@ -323,8 +287,7 @@
     "Female Average Age": 32.3,
     "Person Average Age": 40.7
   },
-  {
-    "Occupation": "2113 Photographers",
+"2113": {
     "Male Weekly Earnings": 1238.6,
     "Female Weekly Earnings": 1303.3,
     "Person Weekly Earnings": 1266.2,
@@ -332,8 +295,7 @@
     "Female Average Age": 35.1,
     "Person Average Age": 40.6
   },
-  {
-    "Occupation": "2114 Visual arts and crafts professionals",
+"2114": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1101.5,
@@ -341,8 +303,7 @@
     "Female Average Age": null,
     "Person Average Age": 51.1
   },
-  {
-    "Occupation": "2121 Artistic directors, and media producers and presenters",
+"2121": {
     "Male Weekly Earnings": 1886.8,
     "Female Weekly Earnings": 2105.8,
     "Person Weekly Earnings": 1977.9,
@@ -350,8 +311,7 @@
     "Female Average Age": 43.1,
     "Person Average Age": 42.7
   },
-  {
-    "Occupation": "2122 Authors, and book and script editors",
+"2122": {
     "Male Weekly Earnings": 1612.7,
     "Female Weekly Earnings": 1407.6,
     "Person Weekly Earnings": 1470,
@@ -359,8 +319,7 @@
     "Female Average Age": 42.2,
     "Person Average Age": 43.3
   },
-  {
-    "Occupation": "2123 Film, television, radio and stage directors",
+"2123": {
     "Male Weekly Earnings": 1463,
     "Female Weekly Earnings": 1218.5,
     "Person Weekly Earnings": 1413.9,
@@ -368,8 +327,7 @@
     "Female Average Age": 35.3,
     "Person Average Age": 38.8
   },
-  {
-    "Occupation": "2124 Journalists and other writers",
+"2124": {
     "Male Weekly Earnings": 2018.5,
     "Female Weekly Earnings": 1363.3,
     "Person Weekly Earnings": 1661.8,
@@ -377,8 +335,7 @@
     "Female Average Age": 34.2,
     "Person Average Age": 37.6
   },
-  {
-    "Occupation": "2211 Accountants",
+"2211": {
     "Male Weekly Earnings": 1681.1,
     "Female Weekly Earnings": 1410.2,
     "Person Weekly Earnings": 1519,
@@ -386,8 +343,7 @@
     "Female Average Age": 41,
     "Person Average Age": 40.5
   },
-  {
-    "Occupation": "2212 Auditors, company secretaries and corporate treasurers",
+"2212": {
     "Male Weekly Earnings": 2077.5,
     "Female Weekly Earnings": 1775.5,
     "Person Weekly Earnings": 1956.3,
@@ -395,8 +351,7 @@
     "Female Average Age": 42.5,
     "Person Average Age": 41.8
   },
-  {
-    "Occupation": "2221 Financial brokers",
+"2221": {
     "Male Weekly Earnings": 2165.6,
     "Female Weekly Earnings": 1662.4,
     "Person Weekly Earnings": 2009.1,
@@ -404,8 +359,7 @@
     "Female Average Age": 48.1,
     "Person Average Age": 45.3
   },
-  {
-    "Occupation": "2222 Financial dealers",
+"2222": {
     "Male Weekly Earnings": 3316.3,
     "Female Weekly Earnings": 2535.6,
     "Person Weekly Earnings": 3064.8,
@@ -413,8 +367,7 @@
     "Female Average Age": 37.4,
     "Person Average Age": 38.2
   },
-  {
-    "Occupation": "2223 Financial investment advisers and managers",
+"2223": {
     "Male Weekly Earnings": 2709.4,
     "Female Weekly Earnings": 2017.3,
     "Person Weekly Earnings": 2506.7,
@@ -422,8 +375,7 @@
     "Female Average Age": 39.8,
     "Person Average Age": 40.9
   },
-  {
-    "Occupation": "2231 Human resource professionals",
+"2231": {
     "Male Weekly Earnings": 1825.9,
     "Female Weekly Earnings": 1659.8,
     "Person Weekly Earnings": 1707,
@@ -431,8 +383,7 @@
     "Female Average Age": 37.4,
     "Person Average Age": 37.5
   },
-  {
-    "Occupation": "2232 ICT trainers",
+"2232": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1492.9,
@@ -440,8 +391,7 @@
     "Female Average Age": null,
     "Person Average Age": 34.9
   },
-  {
-    "Occupation": "2233 Training and development professionals",
+"2233": {
     "Male Weekly Earnings": 2045.6,
     "Female Weekly Earnings": 1411.7,
     "Person Weekly Earnings": 1657.8,
@@ -449,8 +399,7 @@
     "Female Average Age": 42.2,
     "Person Average Age": 44.5
   },
-  {
-    "Occupation": "2241 Actuaries, mathematicians and statisticians",
+"2241": {
     "Male Weekly Earnings": 2383.6,
     "Female Weekly Earnings": 1696.2,
     "Person Weekly Earnings": 2151.1,
@@ -458,8 +407,7 @@
     "Female Average Age": 37.6,
     "Person Average Age": 38.8
   },
-  {
-    "Occupation": "2242 Archivists, curators and records managers",
+"2242": {
     "Male Weekly Earnings": 1848.7,
     "Female Weekly Earnings": 1334.7,
     "Person Weekly Earnings": 1396,
@@ -467,8 +415,7 @@
     "Female Average Age": 51.3,
     "Person Average Age": 50.7
   },
-  {
-    "Occupation": "2243 Economists",
+"2243": {
     "Male Weekly Earnings": 3060.8,
     "Female Weekly Earnings": 1811.1,
     "Person Weekly Earnings": 2451.6,
@@ -476,8 +423,7 @@
     "Female Average Age": 30,
     "Person Average Age": 36.8
   },
-  {
-    "Occupation": "2244 Intelligence and policy analysts",
+"2244": {
     "Male Weekly Earnings": 2015.8,
     "Female Weekly Earnings": 1612.8,
     "Person Weekly Earnings": 1787,
@@ -485,8 +431,7 @@
     "Female Average Age": 40,
     "Person Average Age": 40.5
   },
-  {
-    "Occupation": "2245 Land economists and valuers",
+"2245": {
     "Male Weekly Earnings": 1996.5,
     "Female Weekly Earnings": 1406.3,
     "Person Weekly Earnings": 1807.8,
@@ -494,8 +439,7 @@
     "Female Average Age": 42.1,
     "Person Average Age": 42.2
   },
-  {
-    "Occupation": "2246 Librarians",
+"2246": {
     "Male Weekly Earnings": 1574.6,
     "Female Weekly Earnings": 1389.7,
     "Person Weekly Earnings": 1421.6,
@@ -503,8 +447,7 @@
     "Female Average Age": 47.9,
     "Person Average Age": 47.7
   },
-  {
-    "Occupation": "2247 Management and organisation analysts",
+"2247": {
     "Male Weekly Earnings": 2313.5,
     "Female Weekly Earnings": 1841.9,
     "Person Weekly Earnings": 2133.8,
@@ -512,8 +455,7 @@
     "Female Average Age": 40.1,
     "Person Average Age": 42.7
   },
-  {
-    "Occupation": "2249 Other information and organisation professionals",
+"2249": {
     "Male Weekly Earnings": 2064.9,
     "Female Weekly Earnings": 1610.6,
     "Person Weekly Earnings": 1803.6,
@@ -521,8 +463,7 @@
     "Female Average Age": 42.4,
     "Person Average Age": 44.2
   },
-  {
-    "Occupation": "2251 Advertising and marketing professionals",
+"2251": {
     "Male Weekly Earnings": 1918.6,
     "Female Weekly Earnings": 1542.1,
     "Person Weekly Earnings": 1686.8,
@@ -530,8 +471,7 @@
     "Female Average Age": 35.4,
     "Person Average Age": 38.1
   },
-  {
-    "Occupation": "2252 ICT sales professionals",
+"2252": {
     "Male Weekly Earnings": 2963.2,
     "Female Weekly Earnings": 3216.6,
     "Person Weekly Earnings": 3021.6,
@@ -539,8 +479,7 @@
     "Female Average Age": 42.2,
     "Person Average Age": 44.8
   },
-  {
-    "Occupation": "2253 Public relations professionals",
+"2253": {
     "Male Weekly Earnings": 1772.4,
     "Female Weekly Earnings": 1503.9,
     "Person Weekly Earnings": 1562.8,
@@ -548,8 +487,7 @@
     "Female Average Age": 39.1,
     "Person Average Age": 40
   },
-  {
-    "Occupation": "2254 Technical sales representatives",
+"2254": {
     "Male Weekly Earnings": 1844.2,
     "Female Weekly Earnings": 2214.9,
     "Person Weekly Earnings": 1942.4,
@@ -557,8 +495,7 @@
     "Female Average Age": 43.4,
     "Person Average Age": 45
   },
-  {
-    "Occupation": "2311 Air transport professionals",
+"2311": {
     "Male Weekly Earnings": 3415.9,
     "Female Weekly Earnings": 2473.6,
     "Person Weekly Earnings": 3323.1,
@@ -566,8 +503,7 @@
     "Female Average Age": 40.9,
     "Person Average Age": 45.8
   },
-  {
-    "Occupation": "2312 Marine transport professionals",
+"2312": {
     "Male Weekly Earnings": 2209.9,
     "Female Weekly Earnings": 2108.1,
     "Person Weekly Earnings": 2201.7,
@@ -575,8 +511,7 @@
     "Female Average Age": 50.2,
     "Person Average Age": 48.4
   },
-  {
-    "Occupation": "2321 Architects and landscape architects",
+"2321": {
     "Male Weekly Earnings": 1743.8,
     "Female Weekly Earnings": 1564.7,
     "Person Weekly Earnings": 1664.3,
@@ -584,8 +519,7 @@
     "Female Average Age": 33.4,
     "Person Average Age": 37.4
   },
-  {
-    "Occupation": "2322 Cartographers and surveyors",
+"2322": {
     "Male Weekly Earnings": 1838.3,
     "Female Weekly Earnings": 1149.7,
     "Person Weekly Earnings": 1718.9,
@@ -593,8 +527,7 @@
     "Female Average Age": 38.6,
     "Person Average Age": 40.3
   },
-  {
-    "Occupation": "2323 Fashion, industrial and jewellery designers",
+"2323": {
     "Male Weekly Earnings": 1556.9,
     "Female Weekly Earnings": 1381.6,
     "Person Weekly Earnings": 1427.3,
@@ -602,8 +535,7 @@
     "Female Average Age": 38.7,
     "Person Average Age": 38.7
   },
-  {
-    "Occupation": "2324 Graphic and web designers, and illustrators",
+"2324": {
     "Male Weekly Earnings": 1303.1,
     "Female Weekly Earnings": 1072.8,
     "Person Weekly Earnings": 1182.3,
@@ -611,8 +543,7 @@
     "Female Average Age": 38.8,
     "Person Average Age": 37.9
   },
-  {
-    "Occupation": "2325 Interior designers",
+"2325": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1265.7,
@@ -620,8 +551,7 @@
     "Female Average Age": null,
     "Person Average Age": 31.3
   },
-  {
-    "Occupation": "2326 Urban and regional planners",
+"2326": {
     "Male Weekly Earnings": 1882,
     "Female Weekly Earnings": 2216.7,
     "Person Weekly Earnings": 1980.5,
@@ -629,8 +559,7 @@
     "Female Average Age": 46,
     "Person Average Age": 42.4
   },
-  {
-    "Occupation": "2331 Chemical and materials engineers",
+"2331": {
     "Male Weekly Earnings": 3597.9,
     "Female Weekly Earnings": 1342.1,
     "Person Weekly Earnings": 3158.8,
@@ -638,8 +567,7 @@
     "Female Average Age": 31.6,
     "Person Average Age": 44.8
   },
-  {
-    "Occupation": "2332 Civil engineering professionals",
+"2332": {
     "Male Weekly Earnings": 2081.1,
     "Female Weekly Earnings": 1607.1,
     "Person Weekly Earnings": 2041.5,
@@ -647,8 +575,7 @@
     "Female Average Age": 34.4,
     "Person Average Age": 37
   },
-  {
-    "Occupation": "2333 Electrical engineers",
+"2333": {
     "Male Weekly Earnings": 2391.2,
     "Female Weekly Earnings": 1684.4,
     "Person Weekly Earnings": 2311.3,
@@ -656,8 +583,7 @@
     "Female Average Age": 30.7,
     "Person Average Age": 40.3
   },
-  {
-    "Occupation": "2334 Electronics engineers",
+"2334": {
     "Male Weekly Earnings": 2276.2,
     "Female Weekly Earnings": 2741.9,
     "Person Weekly Earnings": 2333.5,
@@ -665,8 +591,7 @@
     "Female Average Age": 41.6,
     "Person Average Age": 48
   },
-  {
-    "Occupation": "2335 Industrial, mechanical and production engineers",
+"2335": {
     "Male Weekly Earnings": 2677.7,
     "Female Weekly Earnings": 1912.7,
     "Person Weekly Earnings": 2620.5,
@@ -674,8 +599,7 @@
     "Female Average Age": 37.9,
     "Person Average Age": 42.7
   },
-  {
-    "Occupation": "2336 Mining engineers",
+"2336": {
     "Male Weekly Earnings": 3274,
     "Female Weekly Earnings": 2864.9,
     "Person Weekly Earnings": 3219.3,
@@ -683,8 +607,7 @@
     "Female Average Age": 34.5,
     "Person Average Age": 39.7
   },
-  {
-    "Occupation": "2339 Other engineering professionals",
+"2339": {
     "Male Weekly Earnings": 2192.3,
     "Female Weekly Earnings": 1920.6,
     "Person Weekly Earnings": 2118.1,
@@ -692,8 +615,7 @@
     "Female Average Age": 38.4,
     "Person Average Age": 42.3
   },
-  {
-    "Occupation": "2341 Agricultural and forestry scientists",
+"2341": {
     "Male Weekly Earnings": 2255.4,
     "Female Weekly Earnings": 1692.3,
     "Person Weekly Earnings": 2139.3,
@@ -701,8 +623,7 @@
     "Female Average Age": 38.2,
     "Person Average Age": 44.3
   },
-  {
-    "Occupation": "2342 Chemists, and food and wine scientists",
+"2342": {
     "Male Weekly Earnings": 1936.7,
     "Female Weekly Earnings": 1965.6,
     "Person Weekly Earnings": 1947.8,
@@ -710,8 +631,7 @@
     "Female Average Age": 38.7,
     "Person Average Age": 43.4
   },
-  {
-    "Occupation": "2343 Environmental scientists",
+"2343": {
     "Male Weekly Earnings": 1714.5,
     "Female Weekly Earnings": 1525.3,
     "Person Weekly Earnings": 1616.6,
@@ -719,8 +639,7 @@
     "Female Average Age": 35.5,
     "Person Average Age": 39.5
   },
-  {
-    "Occupation": "2344 Geologists and geophysicists",
+"2344": {
     "Male Weekly Earnings": 2566.5,
     "Female Weekly Earnings": 1779.5,
     "Person Weekly Earnings": 2363.3,
@@ -728,8 +647,7 @@
     "Female Average Age": 34.7,
     "Person Average Age": 43
   },
-  {
-    "Occupation": "2345 Life scientists",
+"2345": {
     "Male Weekly Earnings": 1748.3,
     "Female Weekly Earnings": 1309.1,
     "Person Weekly Earnings": 1548.1,
@@ -737,8 +655,7 @@
     "Female Average Age": 41.7,
     "Person Average Age": 43
   },
-  {
-    "Occupation": "2346 Medical laboratory scientists",
+"2346": {
     "Male Weekly Earnings": 1868.9,
     "Female Weekly Earnings": 1660.8,
     "Person Weekly Earnings": 1736.9,
@@ -746,8 +663,7 @@
     "Female Average Age": 45.7,
     "Person Average Age": 44.5
   },
-  {
-    "Occupation": "2347 Veterinarians",
+"2347": {
     "Male Weekly Earnings": 2018.9,
     "Female Weekly Earnings": 956.9,
     "Person Weekly Earnings": 1249.9,
@@ -755,8 +671,7 @@
     "Female Average Age": 31.2,
     "Person Average Age": 35.5
   },
-  {
-    "Occupation": "2349 Other natural and physical science professionals",
+"2349": {
     "Male Weekly Earnings": 2023.2,
     "Female Weekly Earnings": 1146.7,
     "Person Weekly Earnings": 1487.5,
@@ -764,8 +679,7 @@
     "Female Average Age": 35.8,
     "Person Average Age": 37.4
   },
-  {
-    "Occupation": "2411 Early childhood (pre-primary school) teachers",
+"2411": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1188.4,
@@ -773,8 +687,7 @@
     "Female Average Age": null,
     "Person Average Age": 43
   },
-  {
-    "Occupation": "2412 Primary school teachers",
+"2412": {
     "Male Weekly Earnings": 1331.4,
     "Female Weekly Earnings": 1315.7,
     "Person Weekly Earnings": 1318.6,
@@ -782,8 +695,7 @@
     "Female Average Age": 43.6,
     "Person Average Age": 43.5
   },
-  {
-    "Occupation": "2413 Middle school teachers",
+"2413": {
     "Male Weekly Earnings": 1460.1,
     "Female Weekly Earnings": 1924.3,
     "Person Weekly Earnings": 1697,
@@ -791,8 +703,7 @@
     "Female Average Age": 47.8,
     "Person Average Age": 50.2
   },
-  {
-    "Occupation": "2414 Secondary school teachers",
+"2414": {
     "Male Weekly Earnings": 1755.8,
     "Female Weekly Earnings": 1504.6,
     "Person Weekly Earnings": 1620.5,
@@ -800,8 +711,7 @@
     "Female Average Age": 41.2,
     "Person Average Age": 42.3
   },
-  {
-    "Occupation": "2415 Special education teachers",
+"2415": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1832,
@@ -809,8 +719,7 @@
     "Female Average Age": null,
     "Person Average Age": 40.8
   },
-  {
-    "Occupation": "2421 University lecturers and tutors",
+"2421": {
     "Male Weekly Earnings": 1937.3,
     "Female Weekly Earnings": 1591.4,
     "Person Weekly Earnings": 1772.2,
@@ -818,8 +727,7 @@
     "Female Average Age": 46.7,
     "Person Average Age": 46.5
   },
-  {
-    "Occupation": "2422 Vocational education teachers",
+"2422": {
     "Male Weekly Earnings": 1640.1,
     "Female Weekly Earnings": 1280.2,
     "Person Weekly Earnings": 1477.7,
@@ -827,8 +735,7 @@
     "Female Average Age": 46.8,
     "Person Average Age": 49.3
   },
-  {
-    "Occupation": "2491 Education advisers and reviewers",
+"2491": {
     "Male Weekly Earnings": 1887.9,
     "Female Weekly Earnings": 1667.9,
     "Person Weekly Earnings": 1731.3,
@@ -836,8 +743,7 @@
     "Female Average Age": 44.2,
     "Person Average Age": 44.6
   },
-  {
-    "Occupation": "2492 Private tutors and teachers",
+"2492": {
     "Male Weekly Earnings": 338.5,
     "Female Weekly Earnings": 295.4,
     "Person Weekly Earnings": 311.1,
@@ -845,8 +751,7 @@
     "Female Average Age": 45.7,
     "Person Average Age": 42.4
   },
-  {
-    "Occupation": "2493 Teachers of English to speakers of other languages",
+"2493": {
     "Male Weekly Earnings": 1351.3,
     "Female Weekly Earnings": 955.7,
     "Person Weekly Earnings": 1073.3,
@@ -854,8 +759,7 @@
     "Female Average Age": 42.6,
     "Person Average Age": 43.2
   },
-  {
-    "Occupation": "2511 Dieticians",
+"2511": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1406.6,
@@ -863,8 +767,7 @@
     "Female Average Age": null,
     "Person Average Age": 34.1
   },
-  {
-    "Occupation": "2512 Medical imaging professionals",
+"2512": {
     "Male Weekly Earnings": 1960.4,
     "Female Weekly Earnings": 1960,
     "Person Weekly Earnings": 1960.1,
@@ -872,8 +775,7 @@
     "Female Average Age": 39.9,
     "Person Average Age": 41.7
   },
-  {
-    "Occupation": "2513 Occupational and environmental health professionals",
+"2513": {
     "Male Weekly Earnings": 2077.8,
     "Female Weekly Earnings": 1612.8,
     "Person Weekly Earnings": 1831,
@@ -881,8 +783,7 @@
     "Female Average Age": 40.4,
     "Person Average Age": 43.4
   },
-  {
-    "Occupation": "2514 Optometrists and orthoptists",
+"2514": {
     "Male Weekly Earnings": 2236,
     "Female Weekly Earnings": 741.3,
     "Person Weekly Earnings": 1437.3,
@@ -890,8 +791,7 @@
     "Female Average Age": 54,
     "Person Average Age": 52.2
   },
-  {
-    "Occupation": "2515 Pharmacists",
+"2515": {
     "Male Weekly Earnings": 1722,
     "Female Weekly Earnings": 1303,
     "Person Weekly Earnings": 1473.4,
@@ -899,8 +799,7 @@
     "Female Average Age": 38.6,
     "Person Average Age": 37.6
   },
-  {
-    "Occupation": "2519 Other health diagnostic and promotion professionals",
+"2519": {
     "Male Weekly Earnings": 1932,
     "Female Weekly Earnings": 1472.1,
     "Person Weekly Earnings": 1642.8,
@@ -908,8 +807,7 @@
     "Female Average Age": 41.4,
     "Person Average Age": 43.9
   },
-  {
-    "Occupation": "2521 Chiropractors and osteopaths",
+"2521": {
     "Male Weekly Earnings": 2286,
     "Female Weekly Earnings": 630.5,
     "Person Weekly Earnings": 1152.7,
@@ -917,8 +815,7 @@
     "Female Average Age": 38.2,
     "Person Average Age": 45.4
   },
-  {
-    "Occupation": "2522 Complementary health therapists",
+"2522": {
     "Male Weekly Earnings": 0,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": null,
@@ -926,8 +823,7 @@
     "Female Average Age": null,
     "Person Average Age": null
   },
-  {
-    "Occupation": "2523 Dental practitioners",
+"2523": {
     "Male Weekly Earnings": 2225.7,
     "Female Weekly Earnings": 1792.1,
     "Person Weekly Earnings": 2025,
@@ -935,8 +831,7 @@
     "Female Average Age": 42,
     "Person Average Age": 41
   },
-  {
-    "Occupation": "2524 Occupational therapists",
+"2524": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1225.4,
@@ -944,8 +839,7 @@
     "Female Average Age": null,
     "Person Average Age": 34.6
   },
-  {
-    "Occupation": "2525 Physiotherapists",
+"2525": {
     "Male Weekly Earnings": 1302.8,
     "Female Weekly Earnings": 1284.7,
     "Person Weekly Earnings": 1292.1,
@@ -953,8 +847,7 @@
     "Female Average Age": 38.4,
     "Person Average Age": 35.2
   },
-  {
-    "Occupation": "2526 Podiatrists",
+"2526": {
     "Male Weekly Earnings": 1127.1,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1127.1,
@@ -962,8 +855,7 @@
     "Female Average Age": 0,
     "Person Average Age": 41
   },
-  {
-    "Occupation": "2527 Speech professionals and audiologists",
+"2527": {
     "Male Weekly Earnings": 0,
     "Female Weekly Earnings": 990.7,
     "Person Weekly Earnings": 990.7,
@@ -971,8 +863,7 @@
     "Female Average Age": 36.3,
     "Person Average Age": 36.3
   },
-  {
-    "Occupation": "2531 Generalist medical practitioners",
+"2531": {
     "Male Weekly Earnings": 2911.8,
     "Female Weekly Earnings": 2510.5,
     "Person Weekly Earnings": 2708.2,
@@ -980,8 +871,7 @@
     "Female Average Age": 36.5,
     "Person Average Age": 38.4
   },
-  {
-    "Occupation": "2532 Anaesthetists",
+"2532": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 5225.4,
@@ -989,8 +879,7 @@
     "Female Average Age": null,
     "Person Average Age": 50.4
   },
-  {
-    "Occupation": "2533 Internal medicine specialists",
+"2533": {
     "Male Weekly Earnings": 3278.2,
     "Female Weekly Earnings": 3408.1,
     "Person Weekly Earnings": 3327.7,
@@ -998,8 +887,7 @@
     "Female Average Age": 44.6,
     "Person Average Age": 50.4
   },
-  {
-    "Occupation": "2534 Psychiatrists",
+"2534": {
     "Male Weekly Earnings": 3787.7,
     "Female Weekly Earnings": 4007.1,
     "Person Weekly Earnings": 3826.3,
@@ -1007,8 +895,7 @@
     "Female Average Age": 49.5,
     "Person Average Age": 51.6
   },
-  {
-    "Occupation": "2535 Surgeons",
+"2535": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 5272.1,
@@ -1016,8 +903,7 @@
     "Female Average Age": null,
     "Person Average Age": 43.6
   },
-  {
-    "Occupation": "2539 Other medical practitioners",
+"2539": {
     "Male Weekly Earnings": 4813.9,
     "Female Weekly Earnings": 4235.6,
     "Person Weekly Earnings": 4583.5,
@@ -1025,8 +911,7 @@
     "Female Average Age": 41.1,
     "Person Average Age": 45.8
   },
-  {
-    "Occupation": "2541 Midwives",
+"2541": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1511,
@@ -1034,8 +919,7 @@
     "Female Average Age": 46.1,
     "Person Average Age": 46.5
   },
-  {
-    "Occupation": "2542 Nurse educators and researchers",
+"2542": {
     "Male Weekly Earnings": 1501.7,
     "Female Weekly Earnings": 1795.2,
     "Person Weekly Earnings": 1775.1,
@@ -1043,8 +927,7 @@
     "Female Average Age": 44.8,
     "Person Average Age": 44.6
   },
-  {
-    "Occupation": "2543 Nurse managers",
+"2543": {
     "Male Weekly Earnings": 2187.5,
     "Female Weekly Earnings": 2063.6,
     "Person Weekly Earnings": 2076.1,
@@ -1052,8 +935,7 @@
     "Female Average Age": 50.1,
     "Person Average Age": 50.3
   },
-  {
-    "Occupation": "2544 Registered nurses",
+"2544": {
     "Male Weekly Earnings": 1493.8,
     "Female Weekly Earnings": 1365.9,
     "Person Weekly Earnings": 1385.4,
@@ -1061,8 +943,7 @@
     "Female Average Age": 43.2,
     "Person Average Age": 43.4
   },
-  {
-    "Occupation": "2611 ICT business and systems analysts",
+"2611": {
     "Male Weekly Earnings": 2403.4,
     "Female Weekly Earnings": 2120.7,
     "Person Weekly Earnings": 2322.7,
@@ -1070,8 +951,7 @@
     "Female Average Age": 38.8,
     "Person Average Age": 39.7
   },
-  {
-    "Occupation": "2612 Multimedia specialists and web developers",
+"2612": {
     "Male Weekly Earnings": 1194.3,
     "Female Weekly Earnings": 1288.3,
     "Person Weekly Earnings": 1199.9,
@@ -1079,8 +959,7 @@
     "Female Average Age": 29.2,
     "Person Average Age": 33.5
   },
-  {
-    "Occupation": "2613 Software and applications programmers",
+"2613": {
     "Male Weekly Earnings": 2024.6,
     "Female Weekly Earnings": 1867.4,
     "Person Weekly Earnings": 1992.6,
@@ -1088,8 +967,7 @@
     "Female Average Age": 38.6,
     "Person Average Age": 38.5
   },
-  {
-    "Occupation": "2621 Database and systems administrators, and ICT security specialists",
+"2621": {
     "Male Weekly Earnings": 2135.3,
     "Female Weekly Earnings": 1652.4,
     "Person Weekly Earnings": 2047.7,
@@ -1097,8 +975,7 @@
     "Female Average Age": 45.3,
     "Person Average Age": 43.1
   },
-  {
-    "Occupation": "2631 Computer network professionals",
+"2631": {
     "Male Weekly Earnings": 1958.7,
     "Female Weekly Earnings": 1788.4,
     "Person Weekly Earnings": 1943.9,
@@ -1106,8 +983,7 @@
     "Female Average Age": 44.6,
     "Person Average Age": 40.4
   },
-  {
-    "Occupation": "2632 ICT support and test engineers",
+"2632": {
     "Male Weekly Earnings": 2210.7,
     "Female Weekly Earnings": 1926.2,
     "Person Weekly Earnings": 2145.9,
@@ -1115,8 +991,7 @@
     "Female Average Age": 38.9,
     "Person Average Age": 39.8
   },
-  {
-    "Occupation": "2633 Telecommunications engineering professionals",
+"2633": {
     "Male Weekly Earnings": 2148.3,
     "Female Weekly Earnings": 2401.9,
     "Person Weekly Earnings": 2189.5,
@@ -1124,8 +999,7 @@
     "Female Average Age": 41.1,
     "Person Average Age": 43
   },
-  {
-    "Occupation": "2711 Barristers",
+"2711": {
     "Male Weekly Earnings": 2886.8,
     "Female Weekly Earnings": 1900.7,
     "Person Weekly Earnings": 2700.2,
@@ -1133,8 +1007,7 @@
     "Female Average Age": 36.5,
     "Person Average Age": 42.8
   },
-  {
-    "Occupation": "2712 Judicial and other legal professionals",
+"2712": {
     "Male Weekly Earnings": 2752,
     "Female Weekly Earnings": 1894.9,
     "Person Weekly Earnings": 2229.4,
@@ -1142,8 +1015,7 @@
     "Female Average Age": 38.8,
     "Person Average Age": 40.5
   },
-  {
-    "Occupation": "2713 Solicitors",
+"2713": {
     "Male Weekly Earnings": 2128,
     "Female Weekly Earnings": 1906.2,
     "Person Weekly Earnings": 2017.2,
@@ -1151,8 +1023,7 @@
     "Female Average Age": 35.8,
     "Person Average Age": 37.7
   },
-  {
-    "Occupation": "2721 Counsellors",
+"2721": {
     "Male Weekly Earnings": 1534.2,
     "Female Weekly Earnings": 947.6,
     "Person Weekly Earnings": 1088.7,
@@ -1160,8 +1031,7 @@
     "Female Average Age": 46.5,
     "Person Average Age": 46.2
   },
-  {
-    "Occupation": "2722 Ministers of religion",
+"2722": {
     "Male Weekly Earnings": 615.5,
     "Female Weekly Earnings": 308.8,
     "Person Weekly Earnings": 502.7,
@@ -1169,8 +1039,7 @@
     "Female Average Age": 38.8,
     "Person Average Age": 41.6
   },
-  {
-    "Occupation": "2723 Psychologists",
+"2723": {
     "Male Weekly Earnings": 1520.2,
     "Female Weekly Earnings": 1398.8,
     "Person Weekly Earnings": 1419.5,
@@ -1178,8 +1047,7 @@
     "Female Average Age": 46.2,
     "Person Average Age": 46.3
   },
-  {
-    "Occupation": "2724 Social professionals",
+"2724": {
     "Male Weekly Earnings": 931.6,
     "Female Weekly Earnings": 1215.5,
     "Person Weekly Earnings": 1052.6,
@@ -1187,8 +1055,7 @@
     "Female Average Age": 45,
     "Person Average Age": 44.8
   },
-  {
-    "Occupation": "2725 Social workers",
+"2725": {
     "Male Weekly Earnings": 1586,
     "Female Weekly Earnings": 1339.1,
     "Person Weekly Earnings": 1360.8,
@@ -1196,8 +1063,7 @@
     "Female Average Age": 48.2,
     "Person Average Age": 48.2
   },
-  {
-    "Occupation": "2726 Welfare, recreation and community arts workers",
+"2726": {
     "Male Weekly Earnings": 1465.8,
     "Female Weekly Earnings": 1305.5,
     "Person Weekly Earnings": 1321.2,
@@ -1205,8 +1071,7 @@
     "Female Average Age": 46.6,
     "Person Average Age": 46.1
   },
-  {
-    "Occupation": "3111 Agricultural technicians",
+"3111": {
     "Male Weekly Earnings": 1349.9,
     "Female Weekly Earnings": 1408.9,
     "Person Weekly Earnings": 1370.6,
@@ -1214,8 +1079,7 @@
     "Female Average Age": 47,
     "Person Average Age": 52.7
   },
-  {
-    "Occupation": "3112 Medical technicians",
+"3112": {
     "Male Weekly Earnings": 902.3,
     "Female Weekly Earnings": 707.6,
     "Person Weekly Earnings": 756.7,
@@ -1223,8 +1087,7 @@
     "Female Average Age": 41.7,
     "Person Average Age": 40.2
   },
-  {
-    "Occupation": "3113 Primary products inspectors",
+"3113": {
     "Male Weekly Earnings": 1923.8,
     "Female Weekly Earnings": 1414.3,
     "Person Weekly Earnings": 1806.5,
@@ -1232,8 +1095,7 @@
     "Female Average Age": 42.3,
     "Person Average Age": 45.6
   },
-  {
-    "Occupation": "3114 Science technicians",
+"3114": {
     "Male Weekly Earnings": 1632.6,
     "Female Weekly Earnings": 1028.9,
     "Person Weekly Earnings": 1350.1,
@@ -1241,8 +1103,7 @@
     "Female Average Age": 41.2,
     "Person Average Age": 42.7
   },
-  {
-    "Occupation": "3121 Architectural, building and surveying technicians",
+"3121": {
     "Male Weekly Earnings": 1876.7,
     "Female Weekly Earnings": 1392.1,
     "Person Weekly Earnings": 1809.4,
@@ -1250,8 +1111,7 @@
     "Female Average Age": 36.4,
     "Person Average Age": 40.9
   },
-  {
-    "Occupation": "3122 Civil engineering draftspersons and technicians",
+"3122": {
     "Male Weekly Earnings": 1620.5,
     "Female Weekly Earnings": 1122.3,
     "Person Weekly Earnings": 1541.3,
@@ -1259,8 +1119,7 @@
     "Female Average Age": 33.6,
     "Person Average Age": 36.5
   },
-  {
-    "Occupation": "3123 Electrical engineering draftspersons and technicians",
+"3123": {
     "Male Weekly Earnings": 2222.6,
     "Female Weekly Earnings": 1581.4,
     "Person Weekly Earnings": 2095.7,
@@ -1268,8 +1127,7 @@
     "Female Average Age": 27.7,
     "Person Average Age": 37.8
   },
-  {
-    "Occupation": "3124 Electronic engineering draftspersons and technicians",
+"3124": {
     "Male Weekly Earnings": 1931.2,
     "Female Weekly Earnings": 1731,
     "Person Weekly Earnings": 1894.6,
@@ -1277,8 +1135,7 @@
     "Female Average Age": 36.3,
     "Person Average Age": 46.9
   },
-  {
-    "Occupation": "3125 Mechanical engineering draftspersons and technicians",
+"3125": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1943.7,
@@ -1286,8 +1143,7 @@
     "Female Average Age": null,
     "Person Average Age": 42.3
   },
-  {
-    "Occupation": "3126 Safety inspectors",
+"3126": {
     "Male Weekly Earnings": 1449.2,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1449.2,
@@ -1295,8 +1151,7 @@
     "Female Average Age": 0,
     "Person Average Age": 51.6
   },
-  {
-    "Occupation": "3129 Other building and engineering technicians",
+"3129": {
     "Male Weekly Earnings": 2882.8,
     "Female Weekly Earnings": 1940.1,
     "Person Weekly Earnings": 2746,
@@ -1304,8 +1159,7 @@
     "Female Average Age": 35.3,
     "Person Average Age": 43.6
   },
-  {
-    "Occupation": "3131 ICT support technicians",
+"3131": {
     "Male Weekly Earnings": 1434,
     "Female Weekly Earnings": 1298.8,
     "Person Weekly Earnings": 1393.4,
@@ -1313,8 +1167,7 @@
     "Female Average Age": 42.7,
     "Person Average Age": 38.3
   },
-  {
-    "Occupation": "3132 Telecommunications technical specialists",
+"3132": {
     "Male Weekly Earnings": 1589.2,
     "Female Weekly Earnings": 919.8,
     "Person Weekly Earnings": 1393.6,
@@ -1322,8 +1175,7 @@
     "Female Average Age": 31.1,
     "Person Average Age": 37.4
   },
-  {
-    "Occupation": "3211 Automotive electricians",
+"3211": {
     "Male Weekly Earnings": 1437.3,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1437.3,
@@ -1331,8 +1183,7 @@
     "Female Average Age": 0,
     "Person Average Age": 37.3
   },
-  {
-    "Occupation": "3212 Motor mechanics",
+"3212": {
     "Male Weekly Earnings": 1330.4,
     "Female Weekly Earnings": 1116.3,
     "Person Weekly Earnings": 1328.2,
@@ -1340,8 +1191,7 @@
     "Female Average Age": 25.4,
     "Person Average Age": 36.4
   },
-  {
-    "Occupation": "3221 Metal casting, forging and finishing trades workers",
+"3221": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1518.3,
@@ -1349,8 +1199,7 @@
     "Female Average Age": null,
     "Person Average Age": 55.5
   },
-  {
-    "Occupation": "3222 Sheetmetal trades workers",
+"3222": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1636.7,
@@ -1358,8 +1207,7 @@
     "Female Average Age": null,
     "Person Average Age": 46.9
   },
-  {
-    "Occupation": "3223 Structural steel and welding trades workers",
+"3223": {
     "Male Weekly Earnings": 1557.5,
     "Female Weekly Earnings": 1356.6,
     "Person Weekly Earnings": 1550.6,
@@ -1367,8 +1215,7 @@
     "Female Average Age": 31.5,
     "Person Average Age": 36.6
   },
-  {
-    "Occupation": "3231 Aircraft maintenance engineers",
+"3231": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 2160.3,
@@ -1376,8 +1223,7 @@
     "Female Average Age": null,
     "Person Average Age": 42.2
   },
-  {
-    "Occupation": "3232 Metal fitters and machinists",
+"3232": {
     "Male Weekly Earnings": 2097.3,
     "Female Weekly Earnings": 1806.2,
     "Person Weekly Earnings": 2090.1,
@@ -1385,8 +1231,7 @@
     "Female Average Age": 34.4,
     "Person Average Age": 40.2
   },
-  {
-    "Occupation": "3233 Precision metal trades workers",
+"3233": {
     "Male Weekly Earnings": 922.8,
     "Female Weekly Earnings": 1077.7,
     "Person Weekly Earnings": 929.8,
@@ -1394,8 +1239,7 @@
     "Female Average Age": 49.8,
     "Person Average Age": 34.6
   },
-  {
-    "Occupation": "3234 Toolmakers and engineering patternmakers",
+"3234": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": null,
@@ -1403,8 +1247,7 @@
     "Female Average Age": 0,
     "Person Average Age": null
   },
-  {
-    "Occupation": "3241 Panelbeaters",
+"3241": {
     "Male Weekly Earnings": 1254.8,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1254.8,
@@ -1412,8 +1255,7 @@
     "Female Average Age": 0,
     "Person Average Age": 41.8
   },
-  {
-    "Occupation": "3242 Vehicle body builders and trimmers",
+"3242": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1274.3,
@@ -1421,8 +1263,7 @@
     "Female Average Age": null,
     "Person Average Age": 31.2
   },
-  {
-    "Occupation": "3243 Vehicle painters",
+"3243": {
     "Male Weekly Earnings": 1283.2,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1283.2,
@@ -1430,8 +1271,7 @@
     "Female Average Age": 0,
     "Person Average Age": 42.5
   },
-  {
-    "Occupation": "3311 Bricklayers and stonemasons",
+"3311": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1844,
@@ -1439,8 +1279,7 @@
     "Female Average Age": null,
     "Person Average Age": 42
   },
-  {
-    "Occupation": "3312 Carpenters and joiners",
+"3312": {
     "Male Weekly Earnings": 1278.7,
     "Female Weekly Earnings": 906.8,
     "Person Weekly Earnings": 1272.5,
@@ -1448,8 +1287,7 @@
     "Female Average Age": 23.2,
     "Person Average Age": 30.4
   },
-  {
-    "Occupation": "3321 Floor finishers",
+"3321": {
     "Male Weekly Earnings": 903.4,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 903.4,
@@ -1457,8 +1295,7 @@
     "Female Average Age": 0,
     "Person Average Age": 19.4
   },
-  {
-    "Occupation": "3322 Painting trades workers",
+"3322": {
     "Male Weekly Earnings": 1326.1,
     "Female Weekly Earnings": 1133.1,
     "Person Weekly Earnings": 1308.2,
@@ -1466,8 +1303,7 @@
     "Female Average Age": 43.6,
     "Person Average Age": 37.8
   },
-  {
-    "Occupation": "3331 Glaziers",
+"3331": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1084.7,
@@ -1475,8 +1311,7 @@
     "Female Average Age": null,
     "Person Average Age": 39.4
   },
-  {
-    "Occupation": "3332 Plasterers",
+"3332": {
     "Male Weekly Earnings": 1816.3,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1816.3,
@@ -1484,8 +1319,7 @@
     "Female Average Age": 0,
     "Person Average Age": 35.9
   },
-  {
-    "Occupation": "3333 Roof tilers",
+"3333": {
     "Male Weekly Earnings": 935.3,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 935.3,
@@ -1493,8 +1327,7 @@
     "Female Average Age": 0,
     "Person Average Age": 34.5
   },
-  {
-    "Occupation": "3334 Wall and floor tilers",
+"3334": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1135.9,
@@ -1502,8 +1335,7 @@
     "Female Average Age": null,
     "Person Average Age": 36.5
   },
-  {
-    "Occupation": "3341 Plumbers",
+"3341": {
     "Male Weekly Earnings": 1534.9,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1534.9,
@@ -1511,8 +1343,7 @@
     "Female Average Age": 0,
     "Person Average Age": 33.6
   },
-  {
-    "Occupation": "3411 Electricians",
+"3411": {
     "Male Weekly Earnings": 1725.6,
     "Female Weekly Earnings": 1407.2,
     "Person Weekly Earnings": 1719.2,
@@ -1520,8 +1351,7 @@
     "Female Average Age": 38.6,
     "Person Average Age": 33.8
   },
-  {
-    "Occupation": "3421 Airconditioning and refrigeration mechanics",
+"3421": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1531.4,
@@ -1529,8 +1359,7 @@
     "Female Average Age": null,
     "Person Average Age": 36.6
   },
-  {
-    "Occupation": "3422 Electrical distribution trades workers",
+"3422": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 2385.7,
@@ -1538,8 +1367,7 @@
     "Female Average Age": null,
     "Person Average Age": 42.2
   },
-  {
-    "Occupation": "3423 Electronics trades workers",
+"3423": {
     "Male Weekly Earnings": 1456.2,
     "Female Weekly Earnings": 302.5,
     "Person Weekly Earnings": 1427.1,
@@ -1547,8 +1375,7 @@
     "Female Average Age": 56.8,
     "Person Average Age": 38.8
   },
-  {
-    "Occupation": "3424 Telecommunications trades workers",
+"3424": {
     "Male Weekly Earnings": 1500.5,
     "Female Weekly Earnings": 650.5,
     "Person Weekly Earnings": 1429.3,
@@ -1556,8 +1383,7 @@
     "Female Average Age": 28.2,
     "Person Average Age": 39.9
   },
-  {
-    "Occupation": "3511 Bakers and pastrycooks",
+"3511": {
     "Male Weekly Earnings": 874.4,
     "Female Weekly Earnings": 428.6,
     "Person Weekly Earnings": 744.9,
@@ -1565,8 +1391,7 @@
     "Female Average Age": 30.8,
     "Person Average Age": 37
   },
-  {
-    "Occupation": "3512 Butchers and smallgoods makers",
+"3512": {
     "Male Weekly Earnings": 916.4,
     "Female Weekly Earnings": 846,
     "Person Weekly Earnings": 909.5,
@@ -1574,8 +1399,7 @@
     "Female Average Age": 34.3,
     "Person Average Age": 37.5
   },
-  {
-    "Occupation": "3513 Chefs",
+"3513": {
     "Male Weekly Earnings": 1154.2,
     "Female Weekly Earnings": 911.2,
     "Person Weekly Earnings": 1109.7,
@@ -1583,8 +1407,7 @@
     "Female Average Age": 32.7,
     "Person Average Age": 36.6
   },
-  {
-    "Occupation": "3514 Cooks",
+"3514": {
     "Male Weekly Earnings": 837.1,
     "Female Weekly Earnings": 664.9,
     "Person Weekly Earnings": 780.7,
@@ -1592,8 +1415,7 @@
     "Female Average Age": 40.7,
     "Person Average Age": 37.7
   },
-  {
-    "Occupation": "3611 Animal attendants and trainers",
+"3611": {
     "Male Weekly Earnings": 847.9,
     "Female Weekly Earnings": 486,
     "Person Weekly Earnings": 616.9,
@@ -1601,8 +1423,7 @@
     "Female Average Age": 29.8,
     "Person Average Age": 32.5
   },
-  {
-    "Occupation": "3612 Shearers",
+"3612": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": null,
@@ -1610,8 +1431,7 @@
     "Female Average Age": 0,
     "Person Average Age": null
   },
-  {
-    "Occupation": "3613 Veterinary nurses",
+"3613": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 903.1,
@@ -1619,8 +1439,7 @@
     "Female Average Age": null,
     "Person Average Age": 31
   },
-  {
-    "Occupation": "3621 Florists",
+"3621": {
     "Male Weekly Earnings": 0,
     "Female Weekly Earnings": 911,
     "Person Weekly Earnings": 911,
@@ -1628,8 +1447,7 @@
     "Female Average Age": 37.3,
     "Person Average Age": 37.3
   },
-  {
-    "Occupation": "3622 Gardeners",
+"3622": {
     "Male Weekly Earnings": 847.9,
     "Female Weekly Earnings": 852,
     "Person Weekly Earnings": 848.5,
@@ -1637,8 +1455,7 @@
     "Female Average Age": 35.5,
     "Person Average Age": 40.1
   },
-  {
-    "Occupation": "3623 Greenkeepers",
+"3623": {
     "Male Weekly Earnings": 960.2,
     "Female Weekly Earnings": 1066,
     "Person Weekly Earnings": 961.9,
@@ -1646,8 +1463,7 @@
     "Female Average Age": 54.9,
     "Person Average Age": 46.2
   },
-  {
-    "Occupation": "3624 Nurserypersons",
+"3624": {
     "Male Weekly Earnings": 803.8,
     "Female Weekly Earnings": 1210.6,
     "Person Weekly Earnings": 999.6,
@@ -1655,8 +1471,7 @@
     "Female Average Age": 46,
     "Person Average Age": 33.2
   },
-  {
-    "Occupation": "3911 Hairdressers",
+"3911": {
     "Male Weekly Earnings": 753,
     "Female Weekly Earnings": 687.1,
     "Person Weekly Earnings": 700.4,
@@ -1664,8 +1479,7 @@
     "Female Average Age": 32.1,
     "Person Average Age": 31.3
   },
-  {
-    "Occupation": "3921 Binders, finishers and screen printers",
+"3921": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 940.8,
@@ -1673,8 +1487,7 @@
     "Female Average Age": null,
     "Person Average Age": 39.3
   },
-  {
-    "Occupation": "3922 Graphic pre-press trades workers",
+"3922": {
     "Male Weekly Earnings": 1279.6,
     "Female Weekly Earnings": 586,
     "Person Weekly Earnings": 947.4,
@@ -1682,8 +1495,7 @@
     "Female Average Age": 39.4,
     "Person Average Age": 37.3
   },
-  {
-    "Occupation": "3923 Printers",
+"3923": {
     "Male Weekly Earnings": 1288.2,
     "Female Weekly Earnings": 812.5,
     "Person Weekly Earnings": 1177.9,
@@ -1691,8 +1503,7 @@
     "Female Average Age": 40.8,
     "Person Average Age": 46.8
   },
-  {
-    "Occupation": "3931 Canvas and leather goods makers",
+"3931": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": null,
@@ -1700,8 +1511,7 @@
     "Female Average Age": 0,
     "Person Average Age": null
   },
-  {
-    "Occupation": "3932 Clothing trades workers",
+"3932": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 730.2,
@@ -1709,8 +1519,7 @@
     "Female Average Age": null,
     "Person Average Age": 53.2
   },
-  {
-    "Occupation": "3933 Upholsterers",
+"3933": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 806.9,
@@ -1718,8 +1527,7 @@
     "Female Average Age": null,
     "Person Average Age": 32.7
   },
-  {
-    "Occupation": "3941 Cabinetmakers",
+"3941": {
     "Male Weekly Earnings": 1003.6,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1003.6,
@@ -1727,8 +1535,7 @@
     "Female Average Age": 0,
     "Person Average Age": 30.3
   },
-  {
-    "Occupation": "3942 Wood machinists and other wood trades workers",
+"3942": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": null,
@@ -1736,8 +1543,7 @@
     "Female Average Age": 0,
     "Person Average Age": null
   },
-  {
-    "Occupation": "3991 Boat builders and shipwrights",
+"3991": {
     "Male Weekly Earnings": 1630.9,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1630.9,
@@ -1745,8 +1551,7 @@
     "Female Average Age": 0,
     "Person Average Age": 35.1
   },
-  {
-    "Occupation": "3992 Chemical, gas, petroleum and power generation plant operators",
+"3992": {
     "Male Weekly Earnings": 3269.3,
     "Female Weekly Earnings": 2634.1,
     "Person Weekly Earnings": 3238,
@@ -1754,8 +1559,7 @@
     "Female Average Age": 53.8,
     "Person Average Age": 45.7
   },
-  {
-    "Occupation": "3993 Gallery, library and museum technicians",
+"3993": {
     "Male Weekly Earnings": 1234.4,
     "Female Weekly Earnings": 785.3,
     "Person Weekly Earnings": 981.1,
@@ -1763,8 +1567,7 @@
     "Female Average Age": 44.5,
     "Person Average Age": 43.3
   },
-  {
-    "Occupation": "3994 Jewellers",
+"3994": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1200.9,
@@ -1772,8 +1575,7 @@
     "Female Average Age": null,
     "Person Average Age": 34.4
   },
-  {
-    "Occupation": "3995 Performing arts technicians",
+"3995": {
     "Male Weekly Earnings": 1207.6,
     "Female Weekly Earnings": 940.9,
     "Person Weekly Earnings": 1141.7,
@@ -1781,8 +1583,7 @@
     "Female Average Age": 38.1,
     "Person Average Age": 36.4
   },
-  {
-    "Occupation": "3996 Signwriters",
+"3996": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1314.7,
@@ -1790,8 +1591,7 @@
     "Female Average Age": null,
     "Person Average Age": 29.2
   },
-  {
-    "Occupation": "3999 Other miscellaneous technicians and trades workers",
+"3999": {
     "Male Weekly Earnings": 1767.2,
     "Female Weekly Earnings": 588.8,
     "Person Weekly Earnings": 1533.5,
@@ -1799,8 +1599,7 @@
     "Female Average Age": 42,
     "Person Average Age": 42.4
   },
-  {
-    "Occupation": "4111 Ambulance officers and paramedics",
+"4111": {
     "Male Weekly Earnings": 2039.5,
     "Female Weekly Earnings": 1861.5,
     "Person Weekly Earnings": 1962.1,
@@ -1808,8 +1607,7 @@
     "Female Average Age": 37.5,
     "Person Average Age": 39.8
   },
-  {
-    "Occupation": "4112 Dental hygienists, technicians and therapists",
+"4112": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 959,
@@ -1817,8 +1615,7 @@
     "Female Average Age": null,
     "Person Average Age": 34.3
   },
-  {
-    "Occupation": "4113 Diversional therapists",
+"4113": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 887.1,
@@ -1826,8 +1623,7 @@
     "Female Average Age": null,
     "Person Average Age": 47.3
   },
-  {
-    "Occupation": "4114 Enrolled and mothercraft nurses",
+"4114": {
     "Male Weekly Earnings": 1154.5,
     "Female Weekly Earnings": 982,
     "Person Weekly Earnings": 993,
@@ -1835,8 +1631,7 @@
     "Female Average Age": 48.3,
     "Person Average Age": 47.9
   },
-  {
-    "Occupation": "4115 Indigenous health workers",
+"4115": {
     "Male Weekly Earnings": 1657.3,
     "Female Weekly Earnings": 1313.6,
     "Person Weekly Earnings": 1456.6,
@@ -1844,8 +1639,7 @@
     "Female Average Age": 49.8,
     "Person Average Age": 47.1
   },
-  {
-    "Occupation": "4116 Massage therapists",
+"4116": {
     "Male Weekly Earnings": 593.2,
     "Female Weekly Earnings": 555.9,
     "Person Weekly Earnings": 561,
@@ -1853,8 +1647,7 @@
     "Female Average Age": 36.3,
     "Person Average Age": 36.2
   },
-  {
-    "Occupation": "4117 Welfare support workers",
+"4117": {
     "Male Weekly Earnings": 1053.9,
     "Female Weekly Earnings": 1108.6,
     "Person Weekly Earnings": 1096.7,
@@ -1862,8 +1655,7 @@
     "Female Average Age": 44.9,
     "Person Average Age": 44.9
   },
-  {
-    "Occupation": "4211 Child carers",
+"4211": {
     "Male Weekly Earnings": 459.1,
     "Female Weekly Earnings": 670.7,
     "Person Weekly Earnings": 663.7,
@@ -1871,8 +1663,7 @@
     "Female Average Age": 34.9,
     "Person Average Age": 34.8
   },
-  {
-    "Occupation": "4221 Education aides",
+"4221": {
     "Male Weekly Earnings": 575.5,
     "Female Weekly Earnings": 714.4,
     "Person Weekly Earnings": 704.3,
@@ -1880,8 +1671,7 @@
     "Female Average Age": 43.9,
     "Person Average Age": 44.5
   },
-  {
-    "Occupation": "4231 Aged and disabled carers",
+"4231": {
     "Male Weekly Earnings": 907.2,
     "Female Weekly Earnings": 706.6,
     "Person Weekly Earnings": 749.4,
@@ -1889,8 +1679,7 @@
     "Female Average Age": 42.9,
     "Person Average Age": 42.6
   },
-  {
-    "Occupation": "4232 Dental assistants",
+"4232": {
     "Male Weekly Earnings": 1067.7,
     "Female Weekly Earnings": 817.1,
     "Person Weekly Earnings": 826.4,
@@ -1898,8 +1687,7 @@
     "Female Average Age": 31.2,
     "Person Average Age": 31.3
   },
-  {
-    "Occupation": "4233 Nursing support and personal care workers",
+"4233": {
     "Male Weekly Earnings": 839,
     "Female Weekly Earnings": 712.1,
     "Person Weekly Earnings": 743.2,
@@ -1907,8 +1695,7 @@
     "Female Average Age": 41.8,
     "Person Average Age": 42.3
   },
-  {
-    "Occupation": "4234 Special care workers",
+"4234": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1168.3,
@@ -1916,8 +1703,7 @@
     "Female Average Age": 45.6,
     "Person Average Age": 44.9
   },
-  {
-    "Occupation": "4311 Bar attendants and baristas",
+"4311": {
     "Male Weekly Earnings": 658.3,
     "Female Weekly Earnings": 612.9,
     "Person Weekly Earnings": 632.8,
@@ -1925,8 +1711,7 @@
     "Female Average Age": 31.9,
     "Person Average Age": 32
   },
-  {
-    "Occupation": "4312 Cafe workers",
+"4312": {
     "Male Weekly Earnings": 737.2,
     "Female Weekly Earnings": 508.1,
     "Person Weekly Earnings": 557.5,
@@ -1934,8 +1719,7 @@
     "Female Average Age": 33.9,
     "Person Average Age": 32.8
   },
-  {
-    "Occupation": "4313 Gaming workers",
+"4313": {
     "Male Weekly Earnings": 1151.2,
     "Female Weekly Earnings": 1085.5,
     "Person Weekly Earnings": 1124.2,
@@ -1943,8 +1727,7 @@
     "Female Average Age": 42.1,
     "Person Average Age": 38.1
   },
-  {
-    "Occupation": "4314 Hotel service managers",
+"4314": {
     "Male Weekly Earnings": 1156.3,
     "Female Weekly Earnings": 1026.3,
     "Person Weekly Earnings": 1066,
@@ -1952,8 +1735,7 @@
     "Female Average Age": 42.6,
     "Person Average Age": 40.3
   },
-  {
-    "Occupation": "4315 Waiters",
+"4315": {
     "Male Weekly Earnings": 552.5,
     "Female Weekly Earnings": 454.9,
     "Person Weekly Earnings": 490.2,
@@ -1961,8 +1743,7 @@
     "Female Average Age": 27.9,
     "Person Average Age": 29.1
   },
-  {
-    "Occupation": "4319 Other hospitality workers",
+"4319": {
     "Male Weekly Earnings": 581.5,
     "Female Weekly Earnings": 787.7,
     "Person Weekly Earnings": 682.1,
@@ -1970,8 +1751,7 @@
     "Female Average Age": 34.3,
     "Person Average Age": 31
   },
-  {
-    "Occupation": "4412 Fire and emergency workers",
+"4412": {
     "Male Weekly Earnings": 1733.1,
     "Female Weekly Earnings": 1550.3,
     "Person Weekly Earnings": 1716.9,
@@ -1979,8 +1759,7 @@
     "Female Average Age": 37.2,
     "Person Average Age": 43.9
   },
-  {
-    "Occupation": "4413 Police",
+"4413": {
     "Male Weekly Earnings": 2086,
     "Female Weekly Earnings": 1873.5,
     "Person Weekly Earnings": 2026.5,
@@ -1988,8 +1767,7 @@
     "Female Average Age": 39.6,
     "Person Average Age": 42.6
   },
-  {
-    "Occupation": "4421 Prison officers",
+"4421": {
     "Male Weekly Earnings": 1640.7,
     "Female Weekly Earnings": 1472.6,
     "Person Weekly Earnings": 1588.1,
@@ -1997,8 +1775,7 @@
     "Female Average Age": 40.5,
     "Person Average Age": 42.5
   },
-  {
-    "Occupation": "4422 Security officers and guards",
+"4422": {
     "Male Weekly Earnings": 1007,
     "Female Weekly Earnings": 1026.2,
     "Person Weekly Earnings": 1009.9,
@@ -2006,8 +1783,7 @@
     "Female Average Age": 41.9,
     "Person Average Age": 41.3
   },
-  {
-    "Occupation": "4511 Beauty therapists",
+"4511": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 657,
@@ -2015,8 +1791,7 @@
     "Female Average Age": null,
     "Person Average Age": 31.4
   },
-  {
-    "Occupation": "4512 Driving instructors",
+"4512": {
     "Male Weekly Earnings": 893.4,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 893.4,
@@ -2024,8 +1799,7 @@
     "Female Average Age": 0,
     "Person Average Age": 50.1
   },
-  {
-    "Occupation": "4513 Funeral workers",
+"4513": {
     "Male Weekly Earnings": 917.6,
     "Female Weekly Earnings": 950.1,
     "Person Weekly Earnings": 929.3,
@@ -2033,8 +1807,7 @@
     "Female Average Age": 44.7,
     "Person Average Age": 42.6
   },
-  {
-    "Occupation": "4514 Gallery, museum and tour guides",
+"4514": {
     "Male Weekly Earnings": 986.9,
     "Female Weekly Earnings": 479.8,
     "Person Weekly Earnings": 628.7,
@@ -2042,8 +1815,7 @@
     "Female Average Age": 31.5,
     "Person Average Age": 34.1
   },
-  {
-    "Occupation": "4515 Personal care consultants",
+"4515": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": null,
@@ -2051,8 +1823,7 @@
     "Female Average Age": null,
     "Person Average Age": null
   },
-  {
-    "Occupation": "4516 Tourism and travel advisers",
+"4516": {
     "Male Weekly Earnings": 1457,
     "Female Weekly Earnings": 1085.6,
     "Person Weekly Earnings": 1183.6,
@@ -2060,8 +1831,7 @@
     "Female Average Age": 37.6,
     "Person Average Age": 37.2
   },
-  {
-    "Occupation": "4517 Travel attendants",
+"4517": {
     "Male Weekly Earnings": 1506.5,
     "Female Weekly Earnings": 1123.1,
     "Person Weekly Earnings": 1284.1,
@@ -2069,8 +1839,7 @@
     "Female Average Age": 38.8,
     "Person Average Age": 42.1
   },
-  {
-    "Occupation": "4518 Other personal service workers",
+"4518": {
     "Male Weekly Earnings": 657.1,
     "Female Weekly Earnings": 453,
     "Person Weekly Earnings": 525.9,
@@ -2078,8 +1847,7 @@
     "Female Average Age": 33.5,
     "Person Average Age": 34.1
   },
-  {
-    "Occupation": "4521 Fitness instructors",
+"4521": {
     "Male Weekly Earnings": 396,
     "Female Weekly Earnings": 330.9,
     "Person Weekly Earnings": 346.7,
@@ -2087,8 +1855,7 @@
     "Female Average Age": 37.1,
     "Person Average Age": 36.2
   },
-  {
-    "Occupation": "4522 Outdoor adventure guides",
+"4522": {
     "Male Weekly Earnings": 747.2,
     "Female Weekly Earnings": 462.4,
     "Person Weekly Earnings": 583.8,
@@ -2096,8 +1863,7 @@
     "Female Average Age": 25.8,
     "Person Average Age": 28.7
   },
-  {
-    "Occupation": "4523 Sports coaches, instructors and officials",
+"4523": {
     "Male Weekly Earnings": 523.8,
     "Female Weekly Earnings": 430.9,
     "Person Weekly Earnings": 473.8,
@@ -2105,8 +1871,7 @@
     "Female Average Age": 30.6,
     "Person Average Age": 29.6
   },
-  {
-    "Occupation": "4524 Sportspersons",
+"4524": {
     "Male Weekly Earnings": 692.2,
     "Female Weekly Earnings": 605.5,
     "Person Weekly Earnings": 638.5,
@@ -2114,8 +1879,7 @@
     "Female Average Age": 31.2,
     "Person Average Age": 28.8
   },
-  {
-    "Occupation": "5111 Contract, program and project administrators",
+"5111": {
     "Male Weekly Earnings": 1868.8,
     "Female Weekly Earnings": 1335.9,
     "Person Weekly Earnings": 1566.1,
@@ -2123,8 +1887,7 @@
     "Female Average Age": 41.6,
     "Person Average Age": 41.5
   },
-  {
-    "Occupation": "5121 Office managers",
+"5121": {
     "Male Weekly Earnings": 1514.7,
     "Female Weekly Earnings": 1183.6,
     "Person Weekly Earnings": 1243.7,
@@ -2132,8 +1895,7 @@
     "Female Average Age": 45.3,
     "Person Average Age": 45.3
   },
-  {
-    "Occupation": "5122 Practice managers",
+"5122": {
     "Male Weekly Earnings": 1672.1,
     "Female Weekly Earnings": 1249.7,
     "Person Weekly Earnings": 1286.9,
@@ -2141,8 +1903,7 @@
     "Female Average Age": 48.9,
     "Person Average Age": 48.6
   },
-  {
-    "Occupation": "5211 Personal assistants",
+"5211": {
     "Male Weekly Earnings": 1362.7,
     "Female Weekly Earnings": 1322.1,
     "Person Weekly Earnings": 1324.1,
@@ -2150,8 +1911,7 @@
     "Female Average Age": 43.7,
     "Person Average Age": 43.6
   },
-  {
-    "Occupation": "5212 Secretaries",
+"5212": {
     "Male Weekly Earnings": 795.9,
     "Female Weekly Earnings": 859.3,
     "Person Weekly Earnings": 857.2,
@@ -2159,8 +1919,7 @@
     "Female Average Age": 48.3,
     "Person Average Age": 48.1
   },
-  {
-    "Occupation": "5311 General clerks",
+"5311": {
     "Male Weekly Earnings": 919.8,
     "Female Weekly Earnings": 865.2,
     "Person Weekly Earnings": 873.2,
@@ -2168,8 +1927,7 @@
     "Female Average Age": 41.6,
     "Person Average Age": 41
   },
-  {
-    "Occupation": "5321 Keyboard operators",
+"5321": {
     "Male Weekly Earnings": 776.4,
     "Female Weekly Earnings": 906,
     "Person Weekly Earnings": 894.5,
@@ -2177,8 +1935,7 @@
     "Female Average Age": 44.3,
     "Person Average Age": 43.6
   },
-  {
-    "Occupation": "5411 Call or contact centre workers",
+"5411": {
     "Male Weekly Earnings": 1205.3,
     "Female Weekly Earnings": 1055.9,
     "Person Weekly Earnings": 1097.2,
@@ -2186,8 +1943,7 @@
     "Female Average Age": 39.5,
     "Person Average Age": 39
   },
-  {
-    "Occupation": "5412 Inquiry clerks",
+"5412": {
     "Male Weekly Earnings": 1080.9,
     "Female Weekly Earnings": 1044.6,
     "Person Weekly Earnings": 1053.6,
@@ -2195,8 +1951,7 @@
     "Female Average Age": 39.7,
     "Person Average Age": 38.8
   },
-  {
-    "Occupation": "5421 Receptionists",
+"5421": {
     "Male Weekly Earnings": 643.5,
     "Female Weekly Earnings": 720.6,
     "Person Weekly Earnings": 711.1,
@@ -2204,8 +1959,7 @@
     "Female Average Age": 39.3,
     "Person Average Age": 38.4
   },
-  {
-    "Occupation": "5511 Accounting clerks",
+"5511": {
     "Male Weekly Earnings": 1211.4,
     "Female Weekly Earnings": 990.2,
     "Person Weekly Earnings": 1029.2,
@@ -2213,8 +1967,7 @@
     "Female Average Age": 45.3,
     "Person Average Age": 44.3
   },
-  {
-    "Occupation": "5512 Bookkeepers",
+"5512": {
     "Male Weekly Earnings": 688.8,
     "Female Weekly Earnings": 670.4,
     "Person Weekly Earnings": 671.6,
@@ -2222,8 +1975,7 @@
     "Female Average Age": 47.5,
     "Person Average Age": 47.4
   },
-  {
-    "Occupation": "5513 Payroll clerks",
+"5513": {
     "Male Weekly Earnings": 1472.3,
     "Female Weekly Earnings": 1271.3,
     "Person Weekly Earnings": 1325.6,
@@ -2231,8 +1983,7 @@
     "Female Average Age": 43,
     "Person Average Age": 43.4
   },
-  {
-    "Occupation": "5521 Bank workers",
+"5521": {
     "Male Weekly Earnings": 1199.1,
     "Female Weekly Earnings": 969.9,
     "Person Weekly Earnings": 1018.4,
@@ -2240,8 +1991,7 @@
     "Female Average Age": 40.5,
     "Person Average Age": 39.1
   },
-  {
-    "Occupation": "5522 Credit and loans officers",
+"5522": {
     "Male Weekly Earnings": 1417.8,
     "Female Weekly Earnings": 1233.5,
     "Person Weekly Earnings": 1322,
@@ -2249,8 +1999,7 @@
     "Female Average Age": 42.6,
     "Person Average Age": 40.5
   },
-  {
-    "Occupation": "5523 Insurance, money market and statistical clerks",
+"5523": {
     "Male Weekly Earnings": 1219.3,
     "Female Weekly Earnings": 1122,
     "Person Weekly Earnings": 1152.8,
@@ -2258,8 +2007,7 @@
     "Female Average Age": 38.7,
     "Person Average Age": 38.4
   },
-  {
-    "Occupation": "5611 Betting clerks",
+"5611": {
     "Male Weekly Earnings": 390,
     "Female Weekly Earnings": 643.2,
     "Person Weekly Earnings": 593.2,
@@ -2267,8 +2015,7 @@
     "Female Average Age": 54.4,
     "Person Average Age": 53.7
   },
-  {
-    "Occupation": "5612 Couriers and postal deliverers",
+"5612": {
     "Male Weekly Earnings": 1099.3,
     "Female Weekly Earnings": 938.2,
     "Person Weekly Earnings": 1069.3,
@@ -2276,8 +2023,7 @@
     "Female Average Age": 45.3,
     "Person Average Age": 46.9
   },
-  {
-    "Occupation": "5613 Filing and registry clerks",
+"5613": {
     "Male Weekly Earnings": 1348.7,
     "Female Weekly Earnings": 1125.9,
     "Person Weekly Earnings": 1149.6,
@@ -2285,8 +2031,7 @@
     "Female Average Age": 45.6,
     "Person Average Age": 45.7
   },
-  {
-    "Occupation": "5614 Mail sorters",
+"5614": {
     "Male Weekly Earnings": 1200.5,
     "Female Weekly Earnings": 1074.1,
     "Person Weekly Earnings": 1143.9,
@@ -2294,8 +2039,7 @@
     "Female Average Age": 48.5,
     "Person Average Age": 46
   },
-  {
-    "Occupation": "5615 Survey interviewers",
+"5615": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 814,
@@ -2303,8 +2047,7 @@
     "Female Average Age": null,
     "Person Average Age": 61.2
   },
-  {
-    "Occupation": "5616 Switchboard operators",
+"5616": {
     "Male Weekly Earnings": 1265.5,
     "Female Weekly Earnings": 1152.9,
     "Person Weekly Earnings": 1169.3,
@@ -2312,8 +2055,7 @@
     "Female Average Age": 57.4,
     "Person Average Age": 53.2
   },
-  {
-    "Occupation": "5619 Other clerical and office support workers",
+"5619": {
     "Male Weekly Earnings": 996,
     "Female Weekly Earnings": 841.8,
     "Person Weekly Earnings": 870.3,
@@ -2321,8 +2063,7 @@
     "Female Average Age": 33.8,
     "Person Average Age": 34.2
   },
-  {
-    "Occupation": "5911 Purchasing and supply logistics clerks",
+"5911": {
     "Male Weekly Earnings": 1347.7,
     "Female Weekly Earnings": 1144.7,
     "Person Weekly Earnings": 1258,
@@ -2330,8 +2071,7 @@
     "Female Average Age": 43.4,
     "Person Average Age": 44.1
   },
-  {
-    "Occupation": "5912 Transport and despatch clerks",
+"5912": {
     "Male Weekly Earnings": 1431.3,
     "Female Weekly Earnings": 1086.2,
     "Person Weekly Earnings": 1303.3,
@@ -2339,8 +2079,7 @@
     "Female Average Age": 37.6,
     "Person Average Age": 41.4
   },
-  {
-    "Occupation": "5991 Conveyancers and legal executives",
+"5991": {
     "Male Weekly Earnings": 996.2,
     "Female Weekly Earnings": 983.4,
     "Person Weekly Earnings": 984.7,
@@ -2348,8 +2087,7 @@
     "Female Average Age": 35.1,
     "Person Average Age": 34.2
   },
-  {
-    "Occupation": "5992 Court and legal clerks",
+"5992": {
     "Male Weekly Earnings": 1167.1,
     "Female Weekly Earnings": 1017.6,
     "Person Weekly Earnings": 1047.2,
@@ -2357,8 +2095,7 @@
     "Female Average Age": 34.2,
     "Person Average Age": 35
   },
-  {
-    "Occupation": "5993 Debt collectors",
+"5993": {
     "Male Weekly Earnings": 1420.9,
     "Female Weekly Earnings": 1104.3,
     "Person Weekly Earnings": 1230,
@@ -2366,8 +2103,7 @@
     "Female Average Age": 39.7,
     "Person Average Age": 37.6
   },
-  {
-    "Occupation": "5994 Human resource clerks",
+"5994": {
     "Male Weekly Earnings": 1360.5,
     "Female Weekly Earnings": 1229.5,
     "Person Weekly Earnings": 1264.9,
@@ -2375,8 +2111,7 @@
     "Female Average Age": 35.1,
     "Person Average Age": 35.1
   },
-  {
-    "Occupation": "5995 Inspectors and regulatory officers",
+"5995": {
     "Male Weekly Earnings": 1512.8,
     "Female Weekly Earnings": 1336.1,
     "Person Weekly Earnings": 1437,
@@ -2384,8 +2119,7 @@
     "Female Average Age": 44.5,
     "Person Average Age": 45.7
   },
-  {
-    "Occupation": "5996 Insurance investigators, loss adjusters and risk surveyors",
+"5996": {
     "Male Weekly Earnings": 1778.1,
     "Female Weekly Earnings": 1438.3,
     "Person Weekly Earnings": 1690.3,
@@ -2393,8 +2127,7 @@
     "Female Average Age": 36.8,
     "Person Average Age": 44.3
   },
-  {
-    "Occupation": "5997 Library assistants",
+"5997": {
     "Male Weekly Earnings": 974.9,
     "Female Weekly Earnings": 639.7,
     "Person Weekly Earnings": 685.1,
@@ -2402,8 +2135,7 @@
     "Female Average Age": 49.5,
     "Person Average Age": 49.2
   },
-  {
-    "Occupation": "5999 Other miscellaneous clerical and administrative workers",
+"5999": {
     "Male Weekly Earnings": 1292.1,
     "Female Weekly Earnings": 1120,
     "Person Weekly Earnings": 1186.7,
@@ -2411,8 +2143,7 @@
     "Female Average Age": 37,
     "Person Average Age": 37.8
   },
-  {
-    "Occupation": "6111 Auctioneers, and stock and station agents",
+"6111": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1404.1,
@@ -2420,8 +2151,7 @@
     "Female Average Age": null,
     "Person Average Age": 58
   },
-  {
-    "Occupation": "6112 Insurance agents",
+"6112": {
     "Male Weekly Earnings": 1731.9,
     "Female Weekly Earnings": 1437.6,
     "Person Weekly Earnings": 1552.8,
@@ -2429,8 +2159,7 @@
     "Female Average Age": 41.7,
     "Person Average Age": 38.7
   },
-  {
-    "Occupation": "6113 Sales representatives",
+"6113": {
     "Male Weekly Earnings": 1543.2,
     "Female Weekly Earnings": 1294.9,
     "Person Weekly Earnings": 1441.9,
@@ -2438,8 +2167,7 @@
     "Female Average Age": 39.8,
     "Person Average Age": 40.7
   },
-  {
-    "Occupation": "6121 Real estate sales agents",
+"6121": {
     "Male Weekly Earnings": 1259.7,
     "Female Weekly Earnings": 1212,
     "Person Weekly Earnings": 1230.1,
@@ -2447,8 +2175,7 @@
     "Female Average Age": 39.1,
     "Person Average Age": 39.9
   },
-  {
-    "Occupation": "6211 Sales assistants (general)",
+"6211": {
     "Male Weekly Earnings": 579.3,
     "Female Weekly Earnings": 507.6,
     "Person Weekly Earnings": 531.5,
@@ -2456,8 +2183,7 @@
     "Female Average Age": 32.5,
     "Person Average Age": 31.4
   },
-  {
-    "Occupation": "6212 ICT sales assistants",
+"6212": {
     "Male Weekly Earnings": 892.1,
     "Female Weekly Earnings": 788.8,
     "Person Weekly Earnings": 824.2,
@@ -2465,8 +2191,7 @@
     "Female Average Age": 34.1,
     "Person Average Age": 33.5
   },
-  {
-    "Occupation": "6213 Motor vehicle and vehicle parts salespersons",
+"6213": {
     "Male Weekly Earnings": 1318.2,
     "Female Weekly Earnings": 1240.1,
     "Person Weekly Earnings": 1309,
@@ -2474,8 +2199,7 @@
     "Female Average Age": 35.2,
     "Person Average Age": 38.4
   },
-  {
-    "Occupation": "6214 Pharmacy sales assistants",
+"6214": {
     "Male Weekly Earnings": 376.6,
     "Female Weekly Earnings": 564.3,
     "Person Weekly Earnings": 557.5,
@@ -2483,8 +2207,7 @@
     "Female Average Age": 37.1,
     "Person Average Age": 36.6
   },
-  {
-    "Occupation": "6215 Retail supervisors",
+"6215": {
     "Male Weekly Earnings": 1118.6,
     "Female Weekly Earnings": 971.6,
     "Person Weekly Earnings": 1025.7,
@@ -2492,8 +2215,7 @@
     "Female Average Age": 38.4,
     "Person Average Age": 37.1
   },
-  {
-    "Occupation": "6216 Service station attendants",
+"6216": {
     "Male Weekly Earnings": 720.8,
     "Female Weekly Earnings": 706.3,
     "Person Weekly Earnings": 713.9,
@@ -2501,8 +2223,7 @@
     "Female Average Age": 35.8,
     "Person Average Age": 37.7
   },
-  {
-    "Occupation": "6217 Street vendors and related salespersons",
+"6217": {
     "Male Weekly Earnings": 781.4,
     "Female Weekly Earnings": 696.5,
     "Person Weekly Earnings": 737.7,
@@ -2510,8 +2231,7 @@
     "Female Average Age": 39.6,
     "Person Average Age": 37.4
   },
-  {
-    "Occupation": "6219 Other sales assistants and salespersons",
+"6219": {
     "Male Weekly Earnings": 1104.6,
     "Female Weekly Earnings": 897.4,
     "Person Weekly Earnings": 1029.5,
@@ -2519,8 +2239,7 @@
     "Female Average Age": 37.2,
     "Person Average Age": 39.7
   },
-  {
-    "Occupation": "6311 Checkout operators and office cashiers",
+"6311": {
     "Male Weekly Earnings": 476.8,
     "Female Weekly Earnings": 414.2,
     "Person Weekly Earnings": 437.7,
@@ -2528,8 +2247,7 @@
     "Female Average Age": 28.8,
     "Person Average Age": 26.7
   },
-  {
-    "Occupation": "6391 Models and sales demonstrators",
+"6391": {
     "Male Weekly Earnings": 856,
     "Female Weekly Earnings": 515.1,
     "Person Weekly Earnings": 533.1,
@@ -2537,8 +2255,7 @@
     "Female Average Age": 44.8,
     "Person Average Age": 45
   },
-  {
-    "Occupation": "6392 Retail and wool buyers",
+"6392": {
     "Male Weekly Earnings": 1770.2,
     "Female Weekly Earnings": 1611.6,
     "Person Weekly Earnings": 1683.3,
@@ -2546,8 +2263,7 @@
     "Female Average Age": 41.5,
     "Person Average Age": 38.9
   },
-  {
-    "Occupation": "6393 Telemarketers",
+"6393": {
     "Male Weekly Earnings": 708.4,
     "Female Weekly Earnings": 716.5,
     "Person Weekly Earnings": 713.5,
@@ -2555,8 +2271,7 @@
     "Female Average Age": 44.6,
     "Person Average Age": 39.6
   },
-  {
-    "Occupation": "6394 Ticket salespersons",
+"6394": {
     "Male Weekly Earnings": 924.5,
     "Female Weekly Earnings": 766.4,
     "Person Weekly Earnings": 821.2,
@@ -2564,8 +2279,7 @@
     "Female Average Age": 33.6,
     "Person Average Age": 34
   },
-  {
-    "Occupation": "6395 Visual merchandisers",
+"6395": {
     "Male Weekly Earnings": 936.3,
     "Female Weekly Earnings": 880.7,
     "Person Weekly Earnings": 895.5,
@@ -2573,8 +2287,7 @@
     "Female Average Age": 32.3,
     "Person Average Age": 30.8
   },
-  {
-    "Occupation": "6399 Other sales support workers",
+"6399": {
     "Male Weekly Earnings": 1095.7,
     "Female Weekly Earnings": 759.4,
     "Person Weekly Earnings": 924.1,
@@ -2582,8 +2295,7 @@
     "Female Average Age": 36.9,
     "Person Average Age": 33
   },
-  {
-    "Occupation": "7111 Clay, concrete, glass and stone processing machine operators",
+"7111": {
     "Male Weekly Earnings": 1160.9,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1160.9,
@@ -2591,8 +2303,7 @@
     "Female Average Age": 0,
     "Person Average Age": 30.5
   },
-  {
-    "Occupation": "7112 Industrial spraypainters",
+"7112": {
     "Male Weekly Earnings": 1534,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1534,
@@ -2600,8 +2311,7 @@
     "Female Average Age": 0,
     "Person Average Age": 36.1
   },
-  {
-    "Occupation": "7113 Paper and wood processing machine operators",
+"7113": {
     "Male Weekly Earnings": 1310.6,
     "Female Weekly Earnings": 1213.3,
     "Person Weekly Earnings": 1299.9,
@@ -2609,8 +2319,7 @@
     "Female Average Age": 51.2,
     "Person Average Age": 46.7
   },
-  {
-    "Occupation": "7114 Photographic developers and printers",
+"7114": {
     "Male Weekly Earnings": 0,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": null,
@@ -2618,8 +2327,7 @@
     "Female Average Age": null,
     "Person Average Age": null
   },
-  {
-    "Occupation": "7115 Plastics and rubber production machine operators",
+"7115": {
     "Male Weekly Earnings": 1446.3,
     "Female Weekly Earnings": 1509.8,
     "Person Weekly Earnings": 1451.7,
@@ -2627,8 +2335,7 @@
     "Female Average Age": 45.8,
     "Person Average Age": 39.7
   },
-  {
-    "Occupation": "7116 Sewing machinists",
+"7116": {
     "Male Weekly Earnings": 1125.8,
     "Female Weekly Earnings": 735.7,
     "Person Weekly Earnings": 888.2,
@@ -2636,8 +2343,7 @@
     "Female Average Age": 46.3,
     "Person Average Age": 47.6
   },
-  {
-    "Occupation": "7117 Textile and footwear production machine operators",
+"7117": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 873.4,
@@ -2645,8 +2351,7 @@
     "Female Average Age": null,
     "Person Average Age": 38.5
   },
-  {
-    "Occupation": "7119 Other machine operators",
+"7119": {
     "Male Weekly Earnings": 1479.1,
     "Female Weekly Earnings": 1129.1,
     "Person Weekly Earnings": 1381.5,
@@ -2654,8 +2359,7 @@
     "Female Average Age": 42.3,
     "Person Average Age": 38.2
   },
-  {
-    "Occupation": "7121 Crane, hoist and lift operators",
+"7121": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 2490.2,
@@ -2663,8 +2367,7 @@
     "Female Average Age": null,
     "Person Average Age": 49.2
   },
-  {
-    "Occupation": "7122 Drillers, miners and shot firers",
+"7122": {
     "Male Weekly Earnings": 2381.9,
     "Female Weekly Earnings": 2287.7,
     "Person Weekly Earnings": 2374,
@@ -2672,8 +2375,7 @@
     "Female Average Age": 38.6,
     "Person Average Age": 41.5
   },
-  {
-    "Occupation": "7123 Engineering production systems workers",
+"7123": {
     "Male Weekly Earnings": 1336.7,
     "Female Weekly Earnings": 907.5,
     "Person Weekly Earnings": 1296.6,
@@ -2681,8 +2383,7 @@
     "Female Average Age": 30.8,
     "Person Average Age": 40.4
   },
-  {
-    "Occupation": "7129 Other stationary plant operators",
+"7129": {
     "Male Weekly Earnings": 1994.3,
     "Female Weekly Earnings": 1642.8,
     "Person Weekly Earnings": 1955.7,
@@ -2690,8 +2391,7 @@
     "Female Average Age": 39.6,
     "Person Average Age": 45.4
   },
-  {
-    "Occupation": "7211 Agricultural, forestry and horticultural plant operators",
+"7211": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1470.5,
@@ -2699,8 +2399,7 @@
     "Female Average Age": null,
     "Person Average Age": 35
   },
-  {
-    "Occupation": "7212 Earthmoving plant operators",
+"7212": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1558.1,
@@ -2708,8 +2407,7 @@
     "Female Average Age": null,
     "Person Average Age": 41.6
   },
-  {
-    "Occupation": "7213 Forklift drivers",
+"7213": {
     "Male Weekly Earnings": 1174.4,
     "Female Weekly Earnings": 904.1,
     "Person Weekly Earnings": 1162.6,
@@ -2717,8 +2415,7 @@
     "Female Average Age": 37.8,
     "Person Average Age": 44.3
   },
-  {
-    "Occupation": "7219 Other mobile plant operators",
+"7219": {
     "Male Weekly Earnings": 1412.7,
     "Female Weekly Earnings": 1043.9,
     "Person Weekly Earnings": 1395,
@@ -2726,8 +2423,7 @@
     "Female Average Age": 33.2,
     "Person Average Age": 44.5
   },
-  {
-    "Occupation": "7311 Automobile drivers",
+"7311": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 519.8,
@@ -2735,8 +2431,7 @@
     "Female Average Age": null,
     "Person Average Age": 56.1
   },
-  {
-    "Occupation": "7312 Bus and coach drivers",
+"7312": {
     "Male Weekly Earnings": 1282.2,
     "Female Weekly Earnings": 854.1,
     "Person Weekly Earnings": 1216.4,
@@ -2744,8 +2439,7 @@
     "Female Average Age": 56.2,
     "Person Average Age": 54.7
   },
-  {
-    "Occupation": "7313 Train and tram drivers",
+"7313": {
     "Male Weekly Earnings": 2429,
     "Female Weekly Earnings": 2410.3,
     "Person Weekly Earnings": 2427.2,
@@ -2753,8 +2447,7 @@
     "Female Average Age": 42.1,
     "Person Average Age": 49.6
   },
-  {
-    "Occupation": "7321 Delivery drivers",
+"7321": {
     "Male Weekly Earnings": 793.8,
     "Female Weekly Earnings": 614.1,
     "Person Weekly Earnings": 770.8,
@@ -2762,8 +2455,7 @@
     "Female Average Age": 36.6,
     "Person Average Age": 39.2
   },
-  {
-    "Occupation": "7331 Truck drivers",
+"7331": {
     "Male Weekly Earnings": 1474,
     "Female Weekly Earnings": 1302.7,
     "Person Weekly Earnings": 1466.8,
@@ -2771,8 +2463,7 @@
     "Female Average Age": 47.9,
     "Person Average Age": 46.7
   },
-  {
-    "Occupation": "7411 Storepersons",
+"7411": {
     "Male Weekly Earnings": 1002.7,
     "Female Weekly Earnings": 851.8,
     "Person Weekly Earnings": 964.5,
@@ -2780,8 +2471,7 @@
     "Female Average Age": 36.4,
     "Person Average Age": 38.9
   },
-  {
-    "Occupation": "8111 Car detailers",
+"8111": {
     "Male Weekly Earnings": 861,
     "Female Weekly Earnings": 650.3,
     "Person Weekly Earnings": 814.3,
@@ -2789,8 +2479,7 @@
     "Female Average Age": 36.8,
     "Person Average Age": 38.2
   },
-  {
-    "Occupation": "8112 Commercial cleaners",
+"8112": {
     "Male Weekly Earnings": 669.1,
     "Female Weekly Earnings": 578.4,
     "Person Weekly Earnings": 619.7,
@@ -2798,8 +2487,7 @@
     "Female Average Age": 47.5,
     "Person Average Age": 45.2
   },
-  {
-    "Occupation": "8113 Domestic cleaners",
+"8113": {
     "Male Weekly Earnings": 881.8,
     "Female Weekly Earnings": 465.5,
     "Person Weekly Earnings": 541.2,
@@ -2807,8 +2495,7 @@
     "Female Average Age": 40,
     "Person Average Age": 40.6
   },
-  {
-    "Occupation": "8114 Housekeepers",
+"8114": {
     "Male Weekly Earnings": 691.5,
     "Female Weekly Earnings": 506.3,
     "Person Weekly Earnings": 536.1,
@@ -2816,8 +2503,7 @@
     "Female Average Age": 38.4,
     "Person Average Age": 38.1
   },
-  {
-    "Occupation": "8115 Laundry workers",
+"8115": {
     "Male Weekly Earnings": 981.5,
     "Female Weekly Earnings": 661.9,
     "Person Weekly Earnings": 770.3,
@@ -2825,8 +2511,7 @@
     "Female Average Age": 46.8,
     "Person Average Age": 46.6
   },
-  {
-    "Occupation": "8116 Other cleaners",
+"8116": {
     "Male Weekly Earnings": 1154.4,
     "Female Weekly Earnings": 859.3,
     "Person Weekly Earnings": 1135.2,
@@ -2834,8 +2519,7 @@
     "Female Average Age": 53.4,
     "Person Average Age": 36.8
   },
-  {
-    "Occupation": "8211 Building and plumbing labourers",
+"8211": {
     "Male Weekly Earnings": 1483,
     "Female Weekly Earnings": 1326.3,
     "Person Weekly Earnings": 1479.3,
@@ -2843,8 +2527,7 @@
     "Female Average Age": 42.1,
     "Person Average Age": 36.7
   },
-  {
-    "Occupation": "8212 Concreters",
+"8212": {
     "Male Weekly Earnings": 1745.7,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1745.7,
@@ -2852,8 +2535,7 @@
     "Female Average Age": 0,
     "Person Average Age": 35.9
   },
-  {
-    "Occupation": "8213 Fencers",
+"8213": {
     "Male Weekly Earnings": 922.4,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 922.4,
@@ -2861,8 +2543,7 @@
     "Female Average Age": 0,
     "Person Average Age": 34.2
   },
-  {
-    "Occupation": "8214 Insulation and home improvement installers",
+"8214": {
     "Male Weekly Earnings": 1516.7,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1516.7,
@@ -2870,8 +2551,7 @@
     "Female Average Age": 0,
     "Person Average Age": 35.5
   },
-  {
-    "Occupation": "8215 Paving and surfacing labourers",
+"8215": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1127,
@@ -2879,8 +2559,7 @@
     "Female Average Age": null,
     "Person Average Age": 48.1
   },
-  {
-    "Occupation": "8216 Railway track workers",
+"8216": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 2044.4,
@@ -2888,8 +2567,7 @@
     "Female Average Age": null,
     "Person Average Age": 44
   },
-  {
-    "Occupation": "8217 Structural steel construction workers",
+"8217": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1951.2,
@@ -2897,8 +2575,7 @@
     "Female Average Age": null,
     "Person Average Age": 36.5
   },
-  {
-    "Occupation": "8219 Other construction and mining labourers",
+"8219": {
     "Male Weekly Earnings": 1837.4,
     "Female Weekly Earnings": 1203.7,
     "Person Weekly Earnings": 1777.9,
@@ -2906,8 +2583,7 @@
     "Female Average Age": 47,
     "Person Average Age": 38.1
   },
-  {
-    "Occupation": "8311 Food and drink factory workers",
+"8311": {
     "Male Weekly Earnings": 1064.8,
     "Female Weekly Earnings": 1081.6,
     "Person Weekly Earnings": 1068.5,
@@ -2915,8 +2591,7 @@
     "Female Average Age": 41.9,
     "Person Average Age": 40.1
   },
-  {
-    "Occupation": "8312 Meat boners and slicers, and slaughterers",
+"8312": {
     "Male Weekly Earnings": 1288.6,
     "Female Weekly Earnings": 1244.2,
     "Person Weekly Earnings": 1276.6,
@@ -2924,8 +2599,7 @@
     "Female Average Age": 37.6,
     "Person Average Age": 39.3
   },
-  {
-    "Occupation": "8313 Meat, poultry and seafood process workers",
+"8313": {
     "Male Weekly Earnings": 1045.2,
     "Female Weekly Earnings": 896.2,
     "Person Weekly Earnings": 996.9,
@@ -2933,8 +2607,7 @@
     "Female Average Age": 45.1,
     "Person Average Age": 41.2
   },
-  {
-    "Occupation": "8321 Packers",
+"8321": {
     "Male Weekly Earnings": 717.3,
     "Female Weekly Earnings": 740,
     "Person Weekly Earnings": 728,
@@ -2942,8 +2615,7 @@
     "Female Average Age": 40.6,
     "Person Average Age": 37.1
   },
-  {
-    "Occupation": "8322 Product assemblers",
+"8322": {
     "Male Weekly Earnings": 944.8,
     "Female Weekly Earnings": 791.9,
     "Person Weekly Earnings": 898.4,
@@ -2951,8 +2623,7 @@
     "Female Average Age": 46,
     "Person Average Age": 43.4
   },
-  {
-    "Occupation": "8391 Metal engineering process workers",
+"8391": {
     "Male Weekly Earnings": 981.3,
     "Female Weekly Earnings": 871.1,
     "Person Weekly Earnings": 968.1,
@@ -2960,8 +2631,7 @@
     "Female Average Age": 44.3,
     "Person Average Age": 37.2
   },
-  {
-    "Occupation": "8392 Plastics and rubber factory workers",
+"8392": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1160.3,
@@ -2969,8 +2639,7 @@
     "Female Average Age": null,
     "Person Average Age": 44.5
   },
-  {
-    "Occupation": "8393 Product quality controllers",
+"8393": {
     "Male Weekly Earnings": 1557.3,
     "Female Weekly Earnings": 1014,
     "Person Weekly Earnings": 1415.2,
@@ -2978,8 +2647,7 @@
     "Female Average Age": 40,
     "Person Average Age": 44.1
   },
-  {
-    "Occupation": "8394 Timber and wood process workers",
+"8394": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 992.1,
@@ -2987,8 +2655,7 @@
     "Female Average Age": null,
     "Person Average Age": 36.3
   },
-  {
-    "Occupation": "8399 Other factory process workers",
+"8399": {
     "Male Weekly Earnings": 821.5,
     "Female Weekly Earnings": 661.8,
     "Person Weekly Earnings": 770.5,
@@ -2996,8 +2663,7 @@
     "Female Average Age": 41.6,
     "Person Average Age": 39.2
   },
-  {
-    "Occupation": "8412 Crop farm workers",
+"8412": {
     "Male Weekly Earnings": 814.8,
     "Female Weekly Earnings": 758.1,
     "Person Weekly Earnings": 803.9,
@@ -3005,8 +2671,7 @@
     "Female Average Age": 31,
     "Person Average Age": 37.2
   },
-  {
-    "Occupation": "8413 Forestry and logging workers",
+"8413": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": null,
@@ -3014,8 +2679,7 @@
     "Female Average Age": 0,
     "Person Average Age": null
   },
-  {
-    "Occupation": "8414 Garden and nursery labourers",
+"8414": {
     "Male Weekly Earnings": 986.1,
     "Female Weekly Earnings": 579.2,
     "Person Weekly Earnings": 914.8,
@@ -3023,8 +2687,7 @@
     "Female Average Age": 45.1,
     "Person Average Age": 40.6
   },
-  {
-    "Occupation": "8415 Livestock farm workers",
+"8415": {
     "Male Weekly Earnings": 957.1,
     "Female Weekly Earnings": 759.6,
     "Person Weekly Earnings": 887.9,
@@ -3032,8 +2695,7 @@
     "Female Average Age": 33.4,
     "Person Average Age": 40.2
   },
-  {
-    "Occupation": "8416 Mixed crop and livestock farm workers",
+"8416": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1013.9,
@@ -3041,8 +2703,7 @@
     "Female Average Age": null,
     "Person Average Age": 34.1
   },
-  {
-    "Occupation": "8419 Other farm, forestry and garden workers",
+"8419": {
     "Male Weekly Earnings": 951.8,
     "Female Weekly Earnings": 565.6,
     "Person Weekly Earnings": 923,
@@ -3050,8 +2711,7 @@
     "Female Average Age": 32.8,
     "Person Average Age": 39.8
   },
-  {
-    "Occupation": "8511 Fast food cooks",
+"8511": {
     "Male Weekly Earnings": 372.7,
     "Female Weekly Earnings": 343.9,
     "Person Weekly Earnings": 358.6,
@@ -3059,8 +2719,7 @@
     "Female Average Age": 20.4,
     "Person Average Age": 20.6
   },
-  {
-    "Occupation": "8512 Food trades assistants",
+"8512": {
     "Male Weekly Earnings": 423.9,
     "Female Weekly Earnings": 439.7,
     "Person Weekly Earnings": 432.8,
@@ -3068,8 +2727,7 @@
     "Female Average Age": 26,
     "Person Average Age": 29.3
   },
-  {
-    "Occupation": "8513 Kitchenhands",
+"8513": {
     "Male Weekly Earnings": 426.2,
     "Female Weekly Earnings": 554.8,
     "Person Weekly Earnings": 500.2,
@@ -3077,8 +2735,7 @@
     "Female Average Age": 37.9,
     "Person Average Age": 33.5
   },
-  {
-    "Occupation": "8911 Freight and furniture handlers",
+"8911": {
     "Male Weekly Earnings": 1204.9,
     "Female Weekly Earnings": 1254.2,
     "Person Weekly Earnings": 1205.5,
@@ -3086,8 +2743,7 @@
     "Female Average Age": 27.7,
     "Person Average Age": 39.6
   },
-  {
-    "Occupation": "8912 Shelf fillers",
+"8912": {
     "Male Weekly Earnings": 545.5,
     "Female Weekly Earnings": 550.5,
     "Person Weekly Earnings": 547.7,
@@ -3095,8 +2751,7 @@
     "Female Average Age": 33,
     "Person Average Age": 30.7
   },
-  {
-    "Occupation": "8991 Caretakers",
+"8991": {
     "Male Weekly Earnings": 1212.1,
     "Female Weekly Earnings": 602.1,
     "Person Weekly Earnings": 1185.9,
@@ -3104,8 +2759,7 @@
     "Female Average Age": 52.4,
     "Person Average Age": 58.1
   },
-  {
-    "Occupation": "8992 Deck and fishing hands",
+"8992": {
     "Male Weekly Earnings": 1539.9,
     "Female Weekly Earnings": 909,
     "Person Weekly Earnings": 1440.7,
@@ -3113,8 +2767,7 @@
     "Female Average Age": 32.7,
     "Person Average Age": 46.5
   },
-  {
-    "Occupation": "8993 Handypersons",
+"8993": {
     "Male Weekly Earnings": 921.9,
     "Female Weekly Earnings": 722.4,
     "Person Weekly Earnings": 907,
@@ -3122,8 +2775,7 @@
     "Female Average Age": 43.4,
     "Person Average Age": 47.2
   },
-  {
-    "Occupation": "8994 Motor vehicle parts and accessories fitters",
+"8994": {
     "Male Weekly Earnings": 1110.7,
     "Female Weekly Earnings": 0,
     "Person Weekly Earnings": 1110.7,
@@ -3131,8 +2783,7 @@
     "Female Average Age": 0,
     "Person Average Age": 34.3
   },
-  {
-    "Occupation": "8995 Printing assistants and table workers",
+"8995": {
     "Male Weekly Earnings": 1090.5,
     "Female Weekly Earnings": 1015.3,
     "Person Weekly Earnings": 1052.8,
@@ -3140,8 +2791,7 @@
     "Female Average Age": 38.9,
     "Person Average Age": 37.4
   },
-  {
-    "Occupation": "8996 Recycling and rubbish collectors",
+"8996": {
     "Male Weekly Earnings": null,
     "Female Weekly Earnings": null,
     "Person Weekly Earnings": 1412.5,
@@ -3149,8 +2799,7 @@
     "Female Average Age": null,
     "Person Average Age": 49.8
   },
-  {
-    "Occupation": "8997 Vending machine attendants",
+"8997": {
     "Male Weekly Earnings": 627.4,
     "Female Weekly Earnings": 799.8,
     "Person Weekly Earnings": 744.9,
@@ -3158,22 +2807,12 @@
     "Female Average Age": 38.7,
     "Person Average Age": 37.9
   },
-  {
-    "Occupation": "8999 Other miscellaneous labourers",
+"8999": {
     "Male Weekly Earnings": 1029.4,
     "Female Weekly Earnings": 754.3,
     "Person Weekly Earnings": 948.3,
     "Male Average Age": 38.5,
     "Female Average Age": 40.6,
     "Person Average Age": 39.1
-  },
-  {
-    "Occupation": "All occupations",
-    "Male Weekly Earnings": 1525.4,
-    "Female Weekly Earnings": 1053.3,
-    "Person Weekly Earnings": 1288.7,
-    "Male Average Age": 39.9,
-    "Female Average Age": 39.8,
-    "Person Average Age": 39.8
   }
-]
+}

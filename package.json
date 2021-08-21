@@ -4,8 +4,8 @@
     "description": "SITH - Skills Interactive Transferability Handbook",
     "main": "index.js",
     "scripts": {
-        "serve": "webpack-dev-server --config ../SITH-govhack/webpack.dev.js --hot",
-        "build:dev": "webpack --config ../SITH-govhack/webpack.dev.js --watch",
+        "serve": "webpack-dev-server --config ./webpack.dev.js --hot --host 0.0.0.0 --public=localhost:8080",
+        "build:dev": "webpack --config ./webpack.dev.js --watch",
         "build": "webpack --config ./webpack.prod.js",
         "lint": "eslint --ext .js,.vue ./src"
     },

@@ -1,8 +1,6 @@
 <template>
 <div>
-  {{ uuid }}
-
-  <PayGraphSection anzsco_code="4321" />
+  {{ anzscoCode }}
 </div>
 </template>
 
@@ -11,13 +9,12 @@
 // Needs to query a particular profession - which is a classification item, and
 // display details from the classification item
 
-import PayGraphSection from 'src/components/PayGraphSection.vue'
+import salary_data from '/src/data/salaries_dict.json'
 
 export default {
-  name: "JobInformation",
-  components: [PayGraphSection],
+  name: "PayGraphSection",
   props: {
-    uuid: {
+    anzscoCode: {
       type: String,
       default: null
     }
