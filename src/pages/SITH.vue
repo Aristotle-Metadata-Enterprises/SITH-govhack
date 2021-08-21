@@ -1,4 +1,4 @@
-<template>
+pipe<template>
   <div class="home-page">
     <div class="jumbotron bg-light">
       <div class="container">
@@ -9,6 +9,7 @@
       <div class="row">
         <Select2
             :value="professionUUID"
+            v-model="professionUUID"
             :complete-url="classificationItemEndpoint"
             :select-by="idtype.UUID"
         />
