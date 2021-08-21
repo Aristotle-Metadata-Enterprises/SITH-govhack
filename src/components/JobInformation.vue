@@ -1,5 +1,7 @@
 <template>
-<h1>Hi</h1>
+<div>
+  {{ uuid }}
+</div>
 </template>
 
 <script>
@@ -8,9 +10,9 @@
 // display details from the classification item
 
 export default {
-  name: "ProfessionInformation",
+  name: "JobInformation",
   props: {
-    value: {
+    uuid: {
       type: String,
       default: null
     }
