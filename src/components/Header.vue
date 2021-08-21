@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-custom navbar-expand-lg">
-        <router-link class="navbar-brand" :to="{name: 'homePage'}">
+        <router-link class="navbar-brand" :to="{name: 'mainPage'}">
             <i class="fab fa-sith"></i>
             Skills Interactive Transferability Handbook
         </router-link>

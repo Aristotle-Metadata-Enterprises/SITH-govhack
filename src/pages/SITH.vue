@@ -15,10 +15,10 @@ pipe<template>
         />
       </div>
     </div>
-    <JobInformation uuid="Receptionist"></JobInformation>
+    <JobInformation :uuid="professionUUID"/>
     <h1>Other similar jobs</h1>
-    <JobInformation uuid="Special Forces Solider"></JobInformation>
-    <JobInformation uuid="Petty Criminal"></JobInformation>
+    <JobInformation :uuid="professionUUID"/>
+    <JobInformation :uuid="professionUUID"/>
 
   </div>
 </template>
@@ -44,7 +44,7 @@ export default {
     }
   },
   data: () => ({
-    professionUUID: null,
+    professionUUID: "",
     idtype: idtype
   }),
   computed: {

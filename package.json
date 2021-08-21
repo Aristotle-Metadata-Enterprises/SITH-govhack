@@ -39,7 +39,7 @@
     "dependencies": {
         "@aristotle-metadata-enterprises/aristotle_tooltip": "^1.2.1",
         "@fortawesome/fontawesome-free": "^5.15.1",
-        "axios": "^0.19.2",
+        "axios": "0.19.2",
         "bootstrap": "^4.5.2",
         "chart.js": "^2.9.3",
         "color-scheme": "^1.0.1",
