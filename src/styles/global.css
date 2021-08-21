@@ -1,0 +1,21 @@
+/* util styles used across site */
+
+html, body {
+    height: 100%;
+}
+
+h2 {
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 1em;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.navbar .aristotle-logo {
+    height: auto;
+    width: 35px;
+}
+
+dfn {
+    font-weight: 500;
+}
