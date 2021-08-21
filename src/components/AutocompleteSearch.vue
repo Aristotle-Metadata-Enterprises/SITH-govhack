@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Select2 from "./Select2";
+import Select2 from "src/components/Select2.vue";
 export default {
   props: {
     registryURL: {
