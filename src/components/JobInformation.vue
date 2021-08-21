@@ -4,7 +4,7 @@
     <div class="col-8">
       What do <b>{{ classificationItemData['title'] }}</b> do?
       <hr>
-      <span v-html="classificationItemData['explanatoryNotes'].trunc(500)"></span>
+      <span v-html="classificationItemData['explanatoryNotes'].trunc(250)"></span>
     </div>
     <div class="col-4">
       <PayGraphSection :anzsco-code="code" :compare-code="compareCode" />

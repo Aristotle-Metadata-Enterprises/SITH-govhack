@@ -1,33 +1,38 @@
 <template>
 <div>
-  <div class="pay-banner p-3 card container">
-    <div class="row">
-      <div class="col-3 text-center salary-compare py-3">
-        <span v-if="compareCode">
-          <span v-if="betterOff" title="You could increase your average salary in this job!">
-            <i class="fas fa-dollar-sign"></i>
-            This job could give you a pay rise.
+  <div class="pay-banner p-3 card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-3 text-center salary-compare">
+          <span v-if="compareCode">
+            <span v-if="betterOff" title="You could increase your average salary in this job!">
+              <i class="fas fa-dollar-sign"></i>
+              <br>
+              Potential
+              pay rise!
+            </span>
+            <span v-else title="Lookout, you could be taking a pay cut!">
+              <i class="far fa-thumbs-down"></i>
+              <br>
+              Pay cut
+              alert!
+            </span>
           </span>
-          <span v-else title="Lookout, you could be taking a pay cut!">
-            <i class="far fa-thumbs-down"></i>
-            <br>
-            This job has a lower salary.
-          </span>
-        </span>
-      </div>
-      <div class="col-3 text-center female loud" :title="titleWomen">
-        <i class="fas fa-2x fa-female"></i>
-        <br>
-        ${{wef}}
-      </div>
-      <div class="col-3">
-        <pie-chart :chartdata="chartData" :options="options" />
+        </div>
+        <div class="col-3 text-center female loud" :title="titleWomen">
+          <i class="fas fa-2x fa-female"></i>
+          <br>
+          <span class="d-inline">${{wef}}</span>
+        </div>
+        <div class="col-3">
+          <pie-chart :chartdata="chartData" :options="options" />
 
-      </div>
-      <div class="col-3 text-center male loud" :title="titleMen">
-        <i class="fas fa-2x fa-male"></i>
-        <br>
-        ${{wem}}
+        </div>
+        <div class="col-3 text-center male loud" :title="titleMen">
+          <i class="fas fa-2x fa-male"></i>
+          <br>
+          <span class="d-inline">${{wem}}</span>
+        </div>
       </div>
     </div>
   </div>
@@ -129,7 +134,7 @@ export default {
   color: slateblue;
 }
 .loud {
-  font-size: 14pt
+  font-size: 12pt
 }
 .salary-compare {
   font-size: 10pt
