@@ -2,9 +2,7 @@
   <div class="home-page">
     <div class="jumbotron bg-light">
       <div class="container">
-        <h4 class="text-center">
-          Select a profession to get started
-        </h4>
+        <h2>SITH - Skills Interactive Transferability Handbook</h2>
       </div>
       <div class="row">
         <Select2
@@ -17,14 +15,24 @@
     </div>
     <Loading v-if="!ready"></Loading>
     <div v-if="!professionUUID">
-      <h1>SAM SAM SAM ADD SOME SHIT HERE</h1>
+      <p>Use SITH to find relevant jobs based on your existing skills and knowledge.</p>
+      <p>Pay and concordance information is only available for 4-digit anzsco codes. Others may not work properly</p>
+      <p>
+        Good options are:
+        <ul>
+          <li>1333 - Importers, Exporters and Wholesalers</li>
+          <li>2322 - Surveyors and Spatial Scientists</li>
+          <li>6311 - Checkout Operators and Office Cashiers</li>
+        </ul>
+      </p>
+      <h2>How it works</h2>
+      <p>TBD</p>        
     </div>
-
-    <div>
-      <JobInformation :uuid="professionUUID" code="1311"></JobInformation>
+    <div v-else>
+      <JobInformation :uuid="professionUUID" mainOccupation="true" code="1311"></JobInformation>
       <h1>Other similar jobs</h1>
       <div v-for="item in similarClassificationItems" :key="item['item_id']">
-        <JobInformation :uuid="item['item_id']" code="1334" compareCode="1311"></JobInformation>
+        <JobInformation :uuid="item['item_id']" :commonSkills="item['skills']" :code="item['code']" :compareCode="item['compare_code']"></JobInformation>
       </div>
     </div>
   </div>
@@ -75,7 +83,12 @@ export default {
       let similarProfessionPromise = axios.get(this.similarClassificationItemEndpoint)
       similarProfessionPromise.then((data) => {
         for (let item of data.data['similar items']) {
-          this.similarClassificationItems.push({'item_id': item['item_id'], 'similarity' : item['similarity']})
+          this.similarClassificationItems.push({
+            'item_id': item['item_id'], 'similarity' : item['similarity'],
+            'code': item['code'],
+            'skills': item['common skill list'],
+            'compare_code': data.data['code']
+          })
         }
       }).catch((error) => {
         this.errors.push(error)
