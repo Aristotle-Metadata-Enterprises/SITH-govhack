@@ -1,7 +1,9 @@
 <script>
-import Requestor from 'src/lib/api/requests.js'
+
+import Requestor from 'src/lib/requests.js'
 import {idtype} from 'src/lib/enum.js'
-import Select2Mixin from 'src/components/fields/Select2Mixin.vue';
+import Select2Mixin from 'src/components/Select2Mixin.vue';
+import $ from "jquery";
 
 export default {
     mixins: [Select2Mixin],
@@ -23,7 +25,6 @@ export default {
     mounted: function() {
         if (this.hasValue) {
             // When mounted only, do an API lookup to get item name
-            // TODO: make the request happen when value is updated as well
             this.getItemById(this.identifier).then((item) => {
                 this.addOption(item)
                 this.initializeSelect2()
