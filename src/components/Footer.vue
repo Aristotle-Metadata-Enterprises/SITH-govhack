@@ -4,14 +4,8 @@
             <div class="promo">
                 <div>
                     <p>
-                        <a href="https://github.com/Aristotle-Metadata-Enterprises/aristotle-labs" class="text-white">
-                            <i class="fab fa-github" />
-                            Aristotle Labs
-                        </a>
-                            - powered by the Aristotle Metadata Registry
-                    </p>
-                    <p>© 2020 Copyright:
-                        <a class="text-white" href="https://aristotlemetadata.com/">Aristotle Metadata Enterprises</a>
+                            Powered by Aristotle Metadata Registry
+                            <img src="../assets/govhack.png" class="img-fluid" style="height: 30px;">
                     </p>
                 </div>
             </div>

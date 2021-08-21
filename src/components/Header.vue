@@ -1,46 +1,14 @@
 <template>
     <nav class="navbar navbar-custom navbar-expand-lg">
         <router-link class="navbar-brand" :to="{name: 'homePage'}">
-            <img class="img-fluid aristotle-logo" src="@/assets/aris_logo_small.png" alt="Aristotle Logo">
-            Aristotle Labs
+            <i class="fab fa-sith"></i>
+            Skills Interactive Transferability Handbook
         </router-link>
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
         >
             <span class="navbar-toggler-icon" />
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <router-link class="nav-link" :to="{name: 'homePage'}">
-                        Home
-                    </router-link>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                    >
-                        Labs
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <router-link class="dropdown-item" :to="{name: 'covidGraph'}">
-                            Covid Graph
-                        </router-link>
-                        <router-link class="dropdown-item" :to="{name: 'covidMap'}">
-                            Covid Map
-                        </router-link>
-                        <router-link class="dropdown-item" :to="{name: 'sddf'}">
-                            Simple Data Dictionary Format
-                        </router-link>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <a href="https://aristotlemetadata.com" class="btn btn-outline-light">
-            Back to main site
-        </a>
     </nav>
 </template>
 
