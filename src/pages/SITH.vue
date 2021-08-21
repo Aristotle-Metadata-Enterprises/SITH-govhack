@@ -20,7 +20,7 @@ pipe
     <div v-if="!professionUUID">
       <h1>SAM SAM SAM ADD SOME SHIT HERE</h1>
     </div>
-    <div v-else>
+    <div>
       <JobInformation :uuid="professionUUID" code="1311"></JobInformation>
 
       <h1>Other similar jobs</h1>
