@@ -12,8 +12,10 @@
 
 <script>
 import AutocompleteSearch from "../components/AutocompleteSearch.vue";
+
 export default {
-  components: {AutocompleteSearch}
+  components: {AutocompleteSearch},
+
 }
 </script>
 
