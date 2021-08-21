@@ -4,7 +4,8 @@
             <div class="promo">
                 <div>
                     <p>
-                            Powered by Aristotle Metadata Registry
+                      <span style="margin-right: 5px">Powered by Aristotle Metadata Registry</span>
+
                             <img src="../assets/govhack.png" class="img-fluid" style="height: 30px;">
                     </p>
                 </div>
