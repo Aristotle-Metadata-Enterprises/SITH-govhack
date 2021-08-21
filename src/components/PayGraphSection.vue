@@ -2,6 +2,9 @@
 <div>
   <div class="pay-banner p-3 card">
     <div class="card-body">
+      <div>
+        {{anzscoCode}} -- {{compareCode}}
+      </div>
       <div class="row">
         <div class="col-3 text-center salary-compare">
           <span v-if="compareCode">

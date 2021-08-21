@@ -7,7 +7,7 @@
       <span v-html="classificationItemData['explanatoryNotes'].trunc(250)"></span>
     </div>
     <div class="col-4">
-      <PayGraphSection :anzsco-code="code" :compare-code="compareCode" />
+      <PayGraphSection :anzsco-code="fetchedAnzscoCode" :compare-code="compareCode" />
     </div>
   </div>
 </div>
@@ -52,6 +52,7 @@ export default {
     uuid: function () {
       queryClassificationItem(this.uuid).then((data) => {
         this.classificationItemData = data.edges[0].node
+        this.fetchedAnzscoCode = this.classificationItemData['code']
       }).catch((error) => {
         this.errors.push(error)
       }).finally(() => {
