@@ -30,6 +30,8 @@ pipe<template>
 import Select2 from "src/components/Select2.vue";
 import {idtype} from "src/lib/enum.js";
 import JobInformation from "src/components/JobInformation.vue";
+import axios from 'axios'
+import {queryClassificationItem} from "../lib/api";
 
 export default {
   components: {
@@ -50,11 +52,26 @@ export default {
   },
   data: () => ({
     professionUUID: "",
-    idtype: idtype
+    idtype: idtype,
+    similarClassificationItems: [],
   }),
   computed: {
     classificationItemEndpoint: function () {
       return `${this.registryURL}/ac/classification/${this.anzscoUUID}/items`
+    },
+    similarClassificationItemEndpoint: function () {
+      return `https://aristotle-te-govhack-20-z09cgb.herokuapp.com/api/internal/classification_similarity/${this.professionUUID}`
+    }
+  },
+  watch: {
+    professionUUID: function () {
+      let similarProfessionPromise = axios.get(this.similarClassificationItemEndpoint)
+      similarProfessionPromise.then((data) => {
+        this.similarClassificationItems = data
+      }).catch((error) => {
+        this.errors.push(error)
+      }).finally(() => {
+      })
     }
   }
 }
