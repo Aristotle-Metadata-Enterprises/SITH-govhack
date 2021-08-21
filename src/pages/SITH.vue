@@ -2,25 +2,44 @@
   <div class="home-page">
     <div class="jumbotron bg-light">
       <div class="container">
-          <AutocompleteSearch></AutocompleteSearch>
+        <Select2
+            :value="professionUUID"
+            :complete-url="classificationItemEndpoint"
+            :select-by="idtype.UUID"
+        />
       </div>
     </div>
-
   </div>
-
 </template>
 
 <script>
-import AutocompleteSearch from "../components/AutocompleteSearch.vue";
+import Select2 from "src/components/Select2.vue";
+import {idtype} from "src/lib/enum.js";
 
 export default {
-  components: {AutocompleteSearch},
-
+  components: {
+    Select2
+  },
+  props: {
+    registryURL: {
+      type: String,
+      default: 'https://aristotle-te-govhack-20-z09cgb.herokuapp.com'
+    },
+    anzscoUUID: {
+      type: String,
+      default: '3a64083b-528d-4abe-816d-ccbb739e1675'
+    }
+  },
+  data: () => ({
+    professionUUID: null,
+    idtype: idtype
+  }),
+  computed: {
+    classificationItemEndpoint: function () {
+      return `${this.registryURL}/ac/classification/${this.anzscoUUID}/items`
+    }
+  }
 }
 </script>
 
-<style scoped>
-.card-body {
-  border-top: 1px solid lightgray;
-}
-</style>
+<style scoped></style>
