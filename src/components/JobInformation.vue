@@ -7,7 +7,7 @@
         <span v-html="classificationItemData['explanatoryNotes'].trunc(250)"></span>
       </div>
       <div class="col-4">
-        <PayGraphSection :anzsco-code="code" :anzsco-code="fetchedAnzscoCode" :compare-code="compareCode"/>
+        <PayGraphSection :anzsco-code="code" :compare-code="compareCode"/>
       </div>
     </div>
   </div>
@@ -55,6 +55,16 @@ export default {
       this.errors.push(error)
     }).finally(() => {
     })
+  },
+  computed: {
+    anzscoCode: function () {
+      if (this.fetchedAnzscoCode === null) {
+        return this.code
+      }
+      else {
+        return this.fetchedAnzscoCode
+      }
+    }
   },
   watch: {
     uuid: function () {
