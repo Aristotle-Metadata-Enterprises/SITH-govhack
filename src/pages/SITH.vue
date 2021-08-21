@@ -16,12 +16,11 @@ pipe<template>
       </div>
     </div>
 
-    <JobInformation uuid="Receptionist" code="1311"></JobInformation>
+    <JobInformation :uuid="professionUUID" code="1311"></JobInformation>
     <h1>Other similar jobs</h1>
     <JobInformation :uuid="professionUUID"  code="1334" compareCode="1311"></JobInformation>
     <JobInformation :uuid="professionUUID" code="1494" compareCode="1311"></JobInformation>
     <JobInformation :uuid="professionUUID"></JobInformation>
-
   </div>
 </template>
 
@@ -36,10 +35,12 @@ export default {
     Select2
   },
   props: {
+    // The URL of the registry that is being queried
     registryURL: {
       type: String,
       default: 'https://aristotle-te-govhack-20-z09cgb.herokuapp.com'
     },
+    // The UUID of the anzsco code for the
     anzscoUUID: {
       type: String,
       default: '3a64083b-528d-4abe-816d-ccbb739e1675'

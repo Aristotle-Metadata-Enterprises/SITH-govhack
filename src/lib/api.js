@@ -33,6 +33,6 @@ export function queryClassificationItem(uuid) {
     return graphqlQuery(query, {uuid: uuid}).then((response) => {
         return response.data.data.classificationItem
     }).catch((error) => {
-        throw new NiceError('Could not fetch clasification item metadata', error)
+        throw new NiceError('Could not fetch classification item metadata', error)
     })
 }

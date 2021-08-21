@@ -1,11 +1,10 @@
 <template>
-<div class="card my-3 p-3">
-  What do <b>{{ classificationItemData['title'] }}</b> do?
+<div class="card my-9 p-9">
+  What do/does <b>{{ classificationItemData['title'] }}</b> do?
   <hr>
-  <span v-html="classificationItemData['explanatoryNotes']"></span>
+  <span v-html="classificationItemData['explanatoryNotes'].trunc(500)"></span>
   <div class="row">
     <div class="col-8">
-      {{ uuid }}
     </div>
     <div class="col-4">
       <PayGraphSection :anzsco-code="code" :compare-code="compareCode" />
@@ -19,8 +18,14 @@
 // Needs to query a particular profession - which is a classification item, and
 // display details from the classification item
 import {queryClassificationItem} from "src/lib/api.js";
-
 import PayGraphSection from 'src/components/PayGraphSection.vue'
+
+
+// This would be illegal in production - but guess what? we're not in production
+String.prototype.trunc =
+      function(n){
+          return this.substr(0,n-1)+(this.length>n?'&hellip;':'');
+      };
 
 export default {
   name: "JobInformation",
