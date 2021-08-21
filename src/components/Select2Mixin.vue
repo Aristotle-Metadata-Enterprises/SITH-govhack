@@ -8,7 +8,8 @@
 
 <script>
 import {initCustomSelect2} from 'src/lib/dal_simple_init.js'
-import {idtype} from '../lib/enum.js'
+import {idtype} from 'src/lib/enum.js'
+import $ from 'jquery';
 
 export default {
     props: {
@@ -183,3 +184,4 @@ Rules here should only apply under the "vue-select2" class
 }
 
 </style>
+`
