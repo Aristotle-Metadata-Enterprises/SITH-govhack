@@ -1,4 +1,5 @@
-pipe<template>
+pipe
+<template>
   <div class="home-page">
     <div class="jumbotron bg-light">
       <div class="container">
@@ -15,14 +16,19 @@ pipe<template>
         />
       </div>
     </div>
+    <Loading v-if="!ready"></Loading>
+    <div v-if="!professionUUID">
+      <h1>SAM SAM SAM ADD SOME SHIT HERE</h1>
+    </div>
+    <div v-else>
+      <JobInformation :uuid="professionUUID" code="1311"></JobInformation>
 
-    <JobInformation :uuid="professionUUID" code="1311"></JobInformation>
+      <h1>Other similar jobs</h1>
 
-    <h1>Other similar jobs</h1>
-
-    <JobInformation :uuid="professionUUID"  code="1334" compareCode="1311"></JobInformation>
-    <JobInformation :uuid="professionUUID" code="1494" compareCode="1311"></JobInformation>
-    <JobInformation :uuid="professionUUID"></JobInformation>
+      <JobInformation :uuid="professionUUID" code="1334" compareCode="1311"></JobInformation>
+      <JobInformation :uuid="professionUUID" code="1494" compareCode="1311"></JobInformation>
+      <JobInformation :uuid="professionUUID"></JobInformation>
+    </div>
   </div>
 </template>
 
@@ -30,13 +36,14 @@ pipe<template>
 import Select2 from "src/components/Select2.vue";
 import {idtype} from "src/lib/enum.js";
 import JobInformation from "src/components/JobInformation.vue";
+import Loading from 'src/components/Loading.vue'
 import axios from 'axios'
-import {queryClassificationItem} from "../lib/api";
 
 export default {
   components: {
     JobInformation,
-    Select2
+    Select2,
+    Loading
   },
   props: {
     // The URL of the registry that is being queried
@@ -53,6 +60,7 @@ export default {
   data: () => ({
     professionUUID: "",
     idtype: idtype,
+    ready: true,
     similarClassificationItems: [],
   }),
   computed: {
@@ -65,12 +73,14 @@ export default {
   },
   watch: {
     professionUUID: function () {
+      this.ready = false
       let similarProfessionPromise = axios.get(this.similarClassificationItemEndpoint)
       similarProfessionPromise.then((data) => {
-        this.similarClassificationItems = data
+        this.similarClassificationItems = data.data
       }).catch((error) => {
         this.errors.push(error)
       }).finally(() => {
+        this.ready = true
       })
     }
   }
