@@ -3,11 +3,10 @@
     <div class="row">
       <div class="col-8">
         What do <a :href="uuid">
-          <b>{{ classificationItemData['title'] }}</b>
-        </a> do? <small>ANZSCO code: {{code}}</small>
+        <b>{{ classificationItemData['title'] }}</b>
+      </a> do? <small>ANZSCO code: {{ code }}</small>
         <hr>
         <span v-html="classificationItemData['explanatoryNotes'].trunc(250)"></span>
-
       </div>
       <div class="col-4">
         <PayGraphSection :anzsco-code="classificationItemData['code']" :compare-code="compareCode"/>
@@ -18,7 +17,7 @@
       <div class="skills-list">
         <span v-for="item in mainSkills" :key="item['targetItem']['title']">
           <span class="badge badge-info smallskill mr-2">
-          {{item['targetItem']['title']}}
+          {{ item['targetItem']['title'] }}
           </span>
         </span>
       </div>
@@ -28,12 +27,11 @@
       <div class="skills-list">
         <span v-for="item in similarSkills" :key="item['title']">
           <span class="badge badge-info smallskill mr-2">
-            {{item['title']}}
+            {{ item['title'] }}
           </span>
         </span>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -74,7 +72,7 @@ export default {
     commonSkills: {
       type: Array,
       default() {
-          return []
+        return []
       }
     }
   },
@@ -97,8 +95,7 @@ export default {
     anzscoCode: function () {
       if (this.fetchedAnzscoCode === null) {
         return this.code
-      }
-      else {
+      } else {
         return this.fetchedAnzscoCode
       }
     },

@@ -2,33 +2,37 @@
   <div class="home-page">
     <div class="jumbotron bg-light">
       <div class="container">
-        <h2>SITH - Skills Interactive Transferability Handbook</h2>
+        <h2 class="text-center">SITH - Skills Interactive Transferability Handbook</h2>
       </div>
       <div class="row">
+        <div class="col"></div>
+        <div class="col">
         <Select2
             :value="professionUUID"
             v-model="professionUUID"
             :complete-url="classificationItemEndpoint"
             :select-by="idtype.UUID"
+            placeholder="Enter a profession to get started..."
         />
+          </div>
+        <div class="col"></div>
       </div>
     </div>
-    <Loading v-if="!ready"></Loading>
+    <Loading v-if="!ready"/>
     <div v-if="!professionUUID">
       <p>Use SITH to find relevant jobs based on your existing skills and knowledge.</p>
       <p>Pay and concordance information is only available for 4-digit anzsco codes. Others may not work properly</p>
-      <p>
         Good options are:
         <ul>
           <li>1333 - Importers, Exporters and Wholesalers</li>
           <li>2322 - Surveyors and Spatial Scientists</li>
           <li>6311 - Checkout Operators and Office Cashiers</li>
         </ul>
-      </p>
       <h2>Why is it called SITH?</h2>
       <p>
         Because we are using data from the 
-        <a href="https://www.nationalskillscommission.gov.au/our-work/jobs-and-education-data-infrastructure-jedi">Jobs and Education Data Infrastructure (JEDI)</a>
+        <a href="https://www.nationalskillscommission.gov.au/our-work/jobs-and-education-data-infrastructure-jedi">
+          Jobs and Education Data Infrastructure (JEDI)</a>
         National Skill Classification dataset.
         We are also using the ABS API to get salary data broken down by gender and ANZSCO code to produce salary information.
       </p>        
@@ -36,10 +40,10 @@
       <p>TBD</p>        
     </div>
     <div v-else>
-      <JobInformation :uuid="professionUUID" mainOccupation="true" code="1311"></JobInformation>
-      <h1>Other similar jobs</h1>
+      <JobInformation :uuid="professionUUID" :main-occupation="true" code="1311"></JobInformation>
+      <h2 class="text-cente underline">Other similar jobs</h2>
       <div v-for="item in similarClassificationItems" :key="item['item_id']">
-        <JobInformation :uuid="item['item_id']" :commonSkills="item['skills']" :code="item['code']" :compareCode="item['compare_code']"></JobInformation>
+        <JobInformation :uuid="item['item_id']" :common-skills="item['skills']" :code="item['code']" :compare-code="item['compare_code']"></JobInformation>
       </div>
     </div>
   </div>
@@ -106,4 +110,8 @@ export default {
   }
 }
 </script>
-<style scoped></style>
+<style scoped>
+.underline {
+  text-decoration: underline;
+}
+</style>
