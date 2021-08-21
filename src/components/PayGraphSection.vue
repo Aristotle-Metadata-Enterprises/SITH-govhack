@@ -2,10 +2,18 @@
 <div>
   <div class="pay-banner p-3 card container">
     <div class="row">
-      <div class="col-3 text-center">
-        <i class="fas fa-chart-line"></i>
-        <br>
-        You could increase your average salary in this job!
+      <div class="col-3 text-center salary-compare py-3">
+        <span v-if="compareCode">
+          <span v-if="betterOff" title="You could increase your average salary in this job!">
+            <i class="fas fa-dollar-sign"></i>
+            This job could give you a pay rise.
+          </span>
+          <span v-else title="Lookout, you could be taking a pay cut!">
+            <i class="far fa-thumbs-down"></i>
+            <br>
+            This job has a lower salary.
+          </span>
+        </span>
       </div>
       <div class="col-3 text-center female loud" :title="titleWomen">
         <i class="fas fa-2x fa-female"></i>
@@ -59,6 +67,15 @@ export default {
       } else {
         return {}
       }
+    },
+    betterOff: function() {
+      return this.wepc < this.wep
+    },
+    wep: function() {
+      return this.salaries["Person Weekly Earnings"]
+    },
+    wepc: function() {
+      return this.salary_data[this.compareCode.toString()]["Person Weekly Earnings"] 
     },
     wem: function() {
       return this.salaries["Male Weekly Earnings"]
@@ -114,4 +131,11 @@ export default {
 .loud {
   font-size: 14pt
 }
+.salary-compare {
+  font-size: 10pt
+}
+.salary-compare .fas, .salary-compare .far {
+  font-size: 24pt
+}
+
 </style>
