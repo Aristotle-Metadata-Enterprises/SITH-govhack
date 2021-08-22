@@ -13,7 +13,7 @@
           />
         </div>
         <div class="col">
-          <p>Use <strong>About the Skills Interactive Transfer Helper</strong> to find relevant jobs based on your
+          <p>Use <strong>Use the Skills Interactive Transfer Helper</strong> to find relevant jobs based on your
             existing skills and knowledge.</p>
           <p>Pay and concordance information is only available for 4-digit ANZSCO codes. Other codes do not have full
             functionality at this point.</p>
