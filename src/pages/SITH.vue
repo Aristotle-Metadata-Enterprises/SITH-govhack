@@ -157,5 +157,8 @@ export default {
   color: white;
 }
 
+.card-header {
+  text-align: center
+}
 
 </style>
