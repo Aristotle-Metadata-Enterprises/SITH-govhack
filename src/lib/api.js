@@ -28,6 +28,7 @@ export function queryClassificationItem(uuid) {
                     explanatoryNotes
                     correspondenceItemAsSource {
                         targetItem {
+                          id
                           title
                         }
                     }        

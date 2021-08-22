@@ -2,12 +2,15 @@
   <div class="card my-3 p-3">
     <div class="row">
       <div class="col-8 pb-3">
-        What do <a :href="anzscoUrl">
+        What do <a target="_blank" :href="anzscoUrl">
         <b>{{ classificationItemData['title'] }}</b>
       </a> do? <small>ANZSCO code: {{ code }}</small>
         <hr>
         <span v-html="classificationItemData['explanatoryNotes'].trunc(250)"></span>
-        <u><a :href="anzscoUrl" class="">See more about this job, and its skills.</a></u>
+        <a target="_blank" :href="anzscoUrl" class="jump-link">
+          See more about this job, and its skills, tasks and tools.
+          <i class="fas fa-external-link-alt"></i>
+        </a>
       </div>
       <div class="col-4">
         <PayGraphSection :anzsco-code="classificationItemData['code']" :compare-code="compareCode"/>
@@ -18,7 +21,7 @@
       <div class="skills-list">
         <span v-for="item in mainSkills" :key="item['targetItem']['title']">
           <span class="badge badge-info smallskill mr-2">
-            <a href="https://aristotle-te-govhack-20-z09cgb.herokuapp.com/redirect/to/classificationitem/">
+            <a target="_blank" :href="`https://aristotle-te-govhack-20-z09cgb.herokuapp.com/redirect/to/classificationitem/${item['uuid']}`">
               {{ item['targetItem']['title'] }}
             </a>
           </span>
@@ -30,7 +33,7 @@
       <div class="skills-list">
         <span v-for="item in similarSkills" :key="item['title']">
           <span class="badge badge-info smallskill mr-2">
-            <a :href="`https://aristotle-te-govhack-20-z09cgb.herokuapp.com/redirect/to/classificationitem/${item['uuid']}`">
+            <a target="_blank" :href="`https://aristotle-te-govhack-20-z09cgb.herokuapp.com/redirect/to/classificationitem/${item['uuid']}`">
               {{ item['title'] }}
             </a>
           </span>
@@ -109,7 +112,12 @@ export default {
       }
     },
     mainSkills: function () {
-      return this.classificationItemData['correspondenceItemAsSource'].slice(0, 10)
+      var items = []
+      for (let item of this.classificationItemData['correspondenceItemAsSource'].slice(0, 10)) {
+        item['uuid'] = atob(item['targetItem']['id']).split(":")[1]
+        items.push(item)
+      }
+      return items
     }
   },
   watch: {
@@ -133,5 +141,10 @@ export default {
 }
 .smallskill a {
   color: white;
+}
+.jump-link {
+  text-decoration: underline;
+  padding-left: 1em;
+  font-size: 0.8em;
 }
 </style>
