@@ -41,6 +41,10 @@
                   National Skill Classification dataset to help people find new job opportunities.
                 </p>
                 <p class="card-text">
+                  So we've <u>brought balance to the Force</u> - the labour force -
+                  by making sure the JEDI and the SITH exist in balance.
+                </p>
+                <p class="card-text">
                   We are also using the <a href="https://api.gov.au/service/715cdfd0-4742-402e-8729-086a7fd42a51">ABS
                   API</a> to get salary data broken down by gender and ANZSCO code to produce comparative salary information.
                 </p>
