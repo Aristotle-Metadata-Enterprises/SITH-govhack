@@ -4,7 +4,7 @@
     <div class="card-header text-center">
       <b>Salary summary</b>
     </div>
-    <div class="card-body p-3">
+    <div v-if="salaries" class="card-body p-3">
       <div class="row">
         <div class="col-3 text-center salary-compare">
           <span v-if="compareCode">
@@ -37,6 +37,9 @@
           <span class="d-inline">${{wem}}</span>
         </div>
       </div>
+    </div>
+    <div v-else class="card-body p-3 text-center">
+      No salary data for this job.
     </div>
   </div>
 </div>
@@ -98,10 +101,10 @@ export default {
       return this.salaries["Female Average Age"]
     },
     titleMen: function() {
-      return "On average, men in this job earn $" + this.wef
+      return "On average, men in this job earn $" + this.wem
     },
     titleWomen: function() {
-      return "On average, women in this job earn $" + this.wem
+      return "On average, women in this job earn $" + this.wef
     },
     options: function() {
       return {
@@ -129,6 +132,7 @@ export default {
 <style scoped>
 .pay-banner {
   width:400px;
+  box-shadow: 5px 5px rgba(5,5,5,0.5);
 }
 .female {
   color: maroon;

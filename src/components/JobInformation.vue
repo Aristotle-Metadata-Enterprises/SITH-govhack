@@ -1,12 +1,13 @@
 <template>
   <div class="card my-3 p-3">
     <div class="row">
-      <div class="col-8">
-        What do <a :href="uuid">
+      <div class="col-8 pb-3">
+        What do <a :href="anzscoUrl">
         <b>{{ classificationItemData['title'] }}</b>
       </a> do? <small>ANZSCO code: {{ code }}</small>
         <hr>
         <span v-html="classificationItemData['explanatoryNotes'].trunc(250)"></span>
+        <u><a :href="anzscoUrl" class="">See more about this job, and its skills.</a></u>
       </div>
       <div class="col-4">
         <PayGraphSection :anzsco-code="classificationItemData['code']" :compare-code="compareCode"/>
@@ -17,17 +18,21 @@
       <div class="skills-list">
         <span v-for="item in mainSkills" :key="item['targetItem']['title']">
           <span class="badge badge-info smallskill mr-2">
-          {{ item['targetItem']['title'] }}
+            <a href="https://aristotle-te-govhack-20-z09cgb.herokuapp.com/redirect/to/classificationitem/">
+              {{ item['targetItem']['title'] }}
+            </a>
           </span>
         </span>
       </div>
     </div>
     <div v-else>
-      <b>Skills you might have for this job</b><br>
+      <b>Skills you might have and can use in this job</b><br>
       <div class="skills-list">
         <span v-for="item in similarSkills" :key="item['title']">
           <span class="badge badge-info smallskill mr-2">
-            {{ item['title'] }}
+            <a :href="`https://aristotle-te-govhack-20-z09cgb.herokuapp.com/redirect/to/classificationitem/${item['uuid']}`">
+              {{ item['title'] }}
+            </a>
           </span>
         </span>
       </div>
@@ -92,6 +97,10 @@ export default {
     similarSkills: function () {
       return this.commonSkills.slice(0, 10)
     },
+    anzscoUrl: function () {
+      return "https://aristotle-te-govhack-20-z09cgb.herokuapp.com/item/6/classificationviewer/"+this.uuid
+      // return "https://aristotle-te-govhack-20-z09cgb.herokuapp.com/redirect/to/classificationitem/"+this.uuid
+    },
     anzscoCode: function () {
       if (this.fetchedAnzscoCode === null) {
         return this.code
@@ -121,5 +130,8 @@ export default {
 .smallskill {
   font-size: 10pt;
   font-weight: normal;
+}
+.smallskill a {
+  color: white;
 }
 </style>

@@ -22,6 +22,7 @@ export function queryClassificationItem(uuid) {
         classificationItem (id: $uuid) {
             edges {
                 node {
+                    id
                     title
                     code
                     explanatoryNotes
