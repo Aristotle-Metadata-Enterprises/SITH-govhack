@@ -86,10 +86,15 @@
       </div>
       </div>
     <div v-if="professionUUID">
-      <JobInformation :uuid="professionUUID" :main-occupation="true" code="1311"></JobInformation>
-      <h2 class="text-center underline">
+      <JobInformation :uuid="professionUUID" :main-occupation="true"></JobInformation>
+      <h2 class="text-center text-white underline">
         Other similar jobs
       </h2>
+      <p class="text-center text-white">
+        Based on the skills & tools you already know, you may be interested in the following similar occupations.
+        <br>
+        Click a skill or occupation to learn more.
+      </p>
       <div v-for="item in similarClassificationItems" :key="item['item_id']">
         <JobInformation :uuid="item['item_id']" :common-skills="item['skills']" :code="item['code']"
                         :compare-code="item['compare_code']">
