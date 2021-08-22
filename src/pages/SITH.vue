@@ -96,7 +96,7 @@ export default {
   watch: {
     professionUUID: function () {
       this.ready = false
-      this.similarclass = []
+      this.similarClassificationItems = []
       let similarProfessionPromise = axios.get(this.similarClassificationItemEndpoint)
       similarProfessionPromise.then((data) => {
         for (let item of data.data['similar items']) {
