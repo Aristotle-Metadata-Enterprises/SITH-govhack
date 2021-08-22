@@ -11,16 +11,24 @@
       </button>
     </ul>
     <div style="padding-right: 5px" class="border-right">
-      <img class="responsive" style="height: 60px" src="../assets/ausgov.png">
+      <a href="https://www.australia.gov.au/">
+        <img class="responsive" style="height: 60px" src="../assets/ausgov.png">
+      </a>
     </div>
     <div style="padding-right: 7px; padding-left: 10px" class="border-right">
-      <img class="responsive" style="height: 60px" src="../assets/nsc.png">
+        <a href="https://www.nationalskillscommission.gov.au/">
+          <img class="responsive" style="height: 60px" src="../assets/nsc.png">
+        </a>
     </div>
     <div style="padding-right: 7px; padding-left: 10px" class="border-right">
-      <img class="responsive" style="height: 60px" src="../assets/bigaris.png">
+      <a href="https://aristotlemetadata.com">
+        <img class="responsive" style="height: 60px" src="../assets/bigaris.png">
+      </a>
     </div>
      <div style="padding-right: 7px; padding-left: 10px">
-      <img class="responsive" style="height: 60px" src="../assets/govhack.png">
+       <a href="https://govhack.org">
+        <img class="responsive" style="height: 60px" src="../assets/govhack.png">
+       </a>
     </div>
 
   </nav>

@@ -5,6 +5,7 @@
                 <div>
                     <p>
                       <span style="margin-right: 5px">Powered by Aristotle Metadata Registry</span>
+                      <a href="https://aristotlemetadata.com"><img src="../assets/aris_logo_small.png"></a>
                     </p>
                 </div>
             </div>
@@ -18,8 +19,8 @@
     flex: 0 0 auto;
     width: 100%;
     background-color: midnightblue;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer .promo {

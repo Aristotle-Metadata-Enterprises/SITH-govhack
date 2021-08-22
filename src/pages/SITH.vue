@@ -158,7 +158,6 @@ export default {
           })
         }
       }).catch((error) => {
-      }).catch((error) => {
         this.errors.push(error)
       }).finally(() => {
         this.ready = true
