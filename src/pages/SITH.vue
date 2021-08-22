@@ -39,7 +39,20 @@
         API</a> to get salary data broken down by gender and ANZSCO code to produce salary information.
       </p>
       <h2>How it works</h2>
-      <p>TBD</p>
+      <p>SITH pulls data from a number of government sources in order to give Australian citizens insights that can help
+      them plan their careers, transition to better paying jobs, or even find a new career that requires similar skills
+      to their previous employment.</p>
+      <p>The ANZSCO clasification was first loaded into an
+        <a class="white" href="https://aristotle-te-govhack-20-z09cgb.herokuapp.com/home/">Aristotle Metadata Registry</a>,
+        which exposes a comprehensive API allowing us to search and query the classification.
+        This was connected to a autocomplete search component, allowing users to search for any profession in milliseconds.
+        Once a profession was selected, the classification item was fetched from the API, as well as a custom similarity API
+        to identify other professions with shared skills.'
+      </p>
+      <p>
+        These professions were then cross referenced with ABS salary information, so that users could find upwards moves
+        for their careers - better paying jobs that leverage skills they already possess!
+      </p>
     </div>
     <div v-else>
       <JobInformation :uuid="professionUUID" :main-occupation="true" code="1311"></JobInformation>
@@ -48,7 +61,8 @@
       </h2>
       <div v-for="item in similarClassificationItems" :key="item['item_id']">
         <JobInformation :uuid="item['item_id']" :common-skills="item['skills']" :code="item['code']"
-                        :compare-code="item['compare_code']"></JobInformation>
+                        :compare-code="item['compare_code']">
+        </JobInformation>
       </div>
     </div>
   </div>
