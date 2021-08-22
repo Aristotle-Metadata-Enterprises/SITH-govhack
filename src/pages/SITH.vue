@@ -27,7 +27,7 @@
       </div>
     </div>
     <Loading v-if="!ready"/>
-    <div v-if="!professionUUID">
+    <div v-if="!professionUUID" style="margin-bottom: 20px">
       <div class="card">
         <div class="card-body">
           <div class="card-group">
