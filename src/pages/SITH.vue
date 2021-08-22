@@ -1,8 +1,7 @@
 <template>
   <div class="home-page">
-    <div class="jumbotron bg-light">
+    <div class="jumbotron bg-light" style="background-color: white !important; margin-top: 5px">
       <div class="container">
-        <h2 class="text-center">SITH - Skills Interactive Transferability Handbook</h2>
       </div>
       <div class="row">
         <div class="col"></div>
@@ -20,9 +19,9 @@
     </div>
     <Loading v-if="!ready"/>
     <div v-if="!professionUUID">
-      <p>Use SITH to find relevant jobs based on your existing skills and knowledge.</p>
-      <p>Pay and concordance information is only available for 4-digit anzsco codes. Others may not work properly</p>
-        Good options are:
+      <p>Use <strong>SITH</strong> to find relevant jobs based on your existing skills and knowledge.</p>
+      <p>Pay and concordance information is only available for 4-digit anzsco codes. Others may not work properly.</p>
+        Check these out first:
         <ul>
           <li><strong>1333</strong> - Importers, Exporters and Wholesalers</li>
           <li><strong>2322</strong> - Surveyors and Spatial Scientists</li>
@@ -30,14 +29,14 @@
         </ul>
       <h2>Why is it called SITH?</h2>
       <p>
-        Because we are using data from the 
-        <a href="https://www.nationalskillscommission.gov.au/our-work/jobs-and-education-data-infrastructure-jedi">
+        Because we are using data from the
+        <a class="white" href="https://www.nationalskillscommission.gov.au/our-work/jobs-and-education-data-infrastructure-jedi">
           Jobs and Education Data Infrastructure (JEDI)</a>
         National Skill Classification dataset.
-        We are also using the <a href="https://api.gov.au/service/715cdfd0-4742-402e-8729-086a7fd42a51">ABS API</a> to get salary data broken down by gender and ANZSCO code to produce salary information.
-      </p>        
+        We are also using the <a class="white" href="https://api.gov.au/service/715cdfd0-4742-402e-8729-086a7fd42a51">ABS API</a> to get salary data broken down by gender and ANZSCO code to produce salary information.
+      </p>
       <h2>How it works</h2>
-      <p>TBD</p>        
+      <p>TBD</p>
     </div>
     <div v-else>
       <JobInformation :uuid="professionUUID" :main-occupation="true" code="1311"></JobInformation>
@@ -91,6 +90,7 @@ export default {
   watch: {
     professionUUID: function () {
       this.ready = false
+      this.similarclass = []
       let similarProfessionPromise = axios.get(this.similarClassificationItemEndpoint)
       similarProfessionPromise.then((data) => {
         for (let item of data.data['similar items']) {
@@ -114,5 +114,10 @@ export default {
 .underline {
   text-decoration: underline;
 }
+
+.white {
+  color: white;
+}
+
 
 </style>

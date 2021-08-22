@@ -5,8 +5,6 @@
                 <div>
                     <p>
                       <span style="margin-right: 5px">Powered by Aristotle Metadata Registry</span>
-
-                            <img src="../assets/govhack.png" class="img-fluid" style="height: 30px;">
                     </p>
                 </div>
             </div>
@@ -19,7 +17,7 @@
     /* Dont grow or shrink footer */
     flex: 0 0 auto;
     width: 100%;
-    background-color: #356a69;
+    background-color: midnightblue;
     padding-top: 10px;
     padding-bottom: 5px;
 }
