@@ -1,6 +1,6 @@
 <template>
   <div class="home-page">
-    <div class="jumbotron bg-light" style="background-color: white !important; margin-top: 5px">
+    <div class="jumbotron bg-light">
       <div class="row">
         <div class="col align-self-center">
           <p>Enter a profession to get started...</p>
@@ -13,35 +13,36 @@
           />
         </div>
         <div class="col">
-          <p>Use <strong>Use the Skills Interactive Transfer Helper</strong> to find relevant jobs based on your
-            existing skills and knowledge.</p>
-          <p>Pay and concordance information is only available for 4-digit ANZSCO codes. Other codes do not have full
-            functionality at this point.</p>
-          Check these out first:
+          <p><strong>Use the power of the SITH </strong> - (Skills Interactive Transfer Helper) to find relevant jobs based on your
+            existing skills and knowledge.
+          </p>
+          Check these great examples first:
           <ul>
+            <li><strong>6311</strong> - Checkout Operators and Office Cashiers</li>
             <li><strong>1333</strong> - Importers, Exporters and Wholesalers</li>
             <li><strong>2322</strong> - Surveyors and Spatial Scientists</li>
-            <li><strong>6311</strong> - Checkout Operators and Office Cashiers</li>
           </ul>
+          <p>Pay and concordance information is only available for 4-digit ANZSCO codes. Other codes do not have full
+            functionality at this point.</p>
         </div>
       </div>
     </div>
     <Loading v-if="!ready"/>
     <div v-if="!professionUUID" style="margin-bottom: 20px">
-      <div class="card">
-        <div class="card-body">
           <div class="card-group">
             <div class="card">
               <h5 class="card-header">Why it is called SITH?</h5>
-              <div class="card-body">
+              <div class="card-body" style="background: linear-gradient(135deg , #83dade 0%, #97b2ea 100%);">
                 <p class="card-text">
-                  Because we are using data from the
+                  We're using data from the
                   <a
                       href="https://www.nationalskillscommission.gov.au/our-work/jobs-and-education-data-infrastructure-jedi">
                     Jobs and Education Data Infrastructure (JEDI)</a>
-                  National Skill Classification dataset.
+                  National Skill Classification dataset to help people find new job opportunities.
+                </p>
+                <p class="card-text">
                   We are also using the <a href="https://api.gov.au/service/715cdfd0-4742-402e-8729-086a7fd42a51">ABS
-                  API</a> to get salary data broken down by gender and ANZSCO code to produce salary information.
+                  API</a> to get salary data broken down by gender and ANZSCO code to produce comparative salary information.
                 </p>
               </div>
             </div>
@@ -55,20 +56,33 @@
                   similar
                   skills
                   to their previous employment.
-                The ANZSCO clasification was first loaded into an
-                  <a href="https://aristotle-te-govhack-20-z09cgb.herokuapp.com/home/">Aristotle Metadata Registry</a>,
-                  which exposes a comprehensive API allowing us to search and query the classification.
-                  This was connected to a autocomplete search component, allowing users to search for any profession in
-                  milliseconds.
-                  Once a profession was selected, the classification item was fetched from the API, as well as a custom
-                  similarity  API  to identify other professions with shared skills.
-                  These professions were then cross referenced with ABS salary information, so that users could find
+                </p>
+                <p class="card-text">
+                  These professions are then cross referenced with ABS salary information, so that users could find
                   upwards moves for their careers - better paying jobs that leverage skills they already possess!
                 </p>
               </div>
             </div>
-          </div>
-        </div>
+            <div class="card">
+              <h5 class="card-header">How did we use Aristotle?</h5>
+              <div class="card-body">
+                <p class="card-text">
+                The <a href="https://aristotle-te-govhack-20-z09cgb.herokuapp.com/item/6/classificationviewer">ANZSCO</a> and 
+                  <a href="https://www.nationalskillscommission.gov.au/our-work/australian-skills-classification">Australian Skills Classification</a> were first loaded into an
+                  <a href="https://aristotle-te-govhack-20-z09cgb.herokuapp.com/home/">Aristotle Metadata Registry</a>,
+                  which exposes a comprehensive API allowing us to search and query the classification.
+                </p>
+                <p class="card-text">
+                  This was connected to a autocomplete search component, allowing users to search for any profession in
+                  milliseconds.
+                </p>
+                <p class="card-text">
+                  Once a profession was selected, the classification item was fetched from the API, as well as using
+                  a classification similarity API to identify other professions with shared skills.
+                </p>
+              </div>
+            </div>
+
       </div>
       </div>
     <div v-if="professionUUID">
@@ -158,7 +172,25 @@ export default {
 }
 
 .card-header {
-  text-align: center
+  text-align: center;
+  background-color: white;
+  color: #140c76;
+  font-weight: bold;
+}
+
+.card {
+  margin: 5px;
+}
+
+.card-body {
+  color: #140c76;
+  background: linear-gradient(135deg, #a0dae8 0%, #adbaf1 100%);
+}
+
+.jumbotron {
+  padding: 2em;
+  background-color: white !important;
+  margin-top: 2em !important;
 }
 
 </style>
