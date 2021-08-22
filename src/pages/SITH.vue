@@ -13,7 +13,7 @@
           />
         </div>
         <div class="col">
-          <p><strong>Use the power of the SITH </strong> - (Skills Interactive Transfer Helper) to find relevant jobs based on your
+          <p><strong>Use the power of the SITH </strong> - (Skills Identification & Transfer Helper) to find relevant jobs based on your
             existing skills and knowledge.
           </p>
           Check these great examples first:
