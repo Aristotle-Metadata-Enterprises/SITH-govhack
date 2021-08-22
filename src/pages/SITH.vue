@@ -1,60 +1,77 @@
 <template>
   <div class="home-page">
     <div class="jumbotron bg-light" style="background-color: white !important; margin-top: 5px">
-      <div class="container">
-      </div>
       <div class="row">
-        <div class="col"></div>
-        <div class="col">
+        <div class="col align-self-center">
+          <p>Enter a profession to get started...</p>
           <Select2
               :value="professionUUID"
               v-model="professionUUID"
               :complete-url="classificationItemEndpoint"
               :select-by="idtype.UUID"
-              placeholder="Enter a profession to get started..."
+              placeholder="6311 - Checkout Operators and Office Cashiers"
           />
         </div>
-        <div class="col"></div>
+        <div class="col">
+          <p>Use <strong>About the Skills Interactive Transfer Helper</strong> to find relevant jobs based on your
+            existing skills and knowledge.</p>
+          <p>Pay and concordance information is only available for 4-digit ANZSCO codes. Other codes do not have full
+            functionality at this point.</p>
+          Check these out first:
+          <ul>
+            <li><strong>1333</strong> - Importers, Exporters and Wholesalers</li>
+            <li><strong>2322</strong> - Surveyors and Spatial Scientists</li>
+            <li><strong>6311</strong> - Checkout Operators and Office Cashiers</li>
+          </ul>
+        </div>
       </div>
     </div>
     <Loading v-if="!ready"/>
     <div v-if="!professionUUID">
-      <p>Use <strong>SITH</strong> to find relevant jobs based on your existing skills and knowledge.</p>
-      <p>Pay and concordance information is only available for 4-digit ANZSCO codes. Other codes do not have full
-        functionality at this point.</p>
-      Check these out first:
-      <ul>
-        <li><strong>1333</strong> - Importers, Exporters and Wholesalers</li>
-        <li><strong>2322</strong> - Surveyors and Spatial Scientists</li>
-        <li><strong>6311</strong> - Checkout Operators and Office Cashiers</li>
-      </ul>
-      <h2>Why is it called SITH?</h2>
-      <p>
-        Because we are using data from the
-        <a class="white"
-           href="https://www.nationalskillscommission.gov.au/our-work/jobs-and-education-data-infrastructure-jedi">
-          Jobs and Education Data Infrastructure (JEDI)</a>
-        National Skill Classification dataset.
-        We are also using the <a class="white" href="https://api.gov.au/service/715cdfd0-4742-402e-8729-086a7fd42a51">ABS
-        API</a> to get salary data broken down by gender and ANZSCO code to produce salary information.
-      </p>
-      <h2>How it works</h2>
-      <p>SITH pulls data from a number of government sources in order to give Australian citizens insights that can help
-      them plan their careers, transition to better paying jobs, or even find a new career that requires similar skills
-      to their previous employment.</p>
-      <p>The ANZSCO clasification was first loaded into an
-        <a class="white" href="https://aristotle-te-govhack-20-z09cgb.herokuapp.com/home/">Aristotle Metadata Registry</a>,
-        which exposes a comprehensive API allowing us to search and query the classification.
-        This was connected to a autocomplete search component, allowing users to search for any profession in milliseconds.
-        Once a profession was selected, the classification item was fetched from the API, as well as a custom similarity API
-        to identify other professions with shared skills.'
-      </p>
-      <p>
-        These professions were then cross referenced with ABS salary information, so that users could find upwards moves
-        for their careers - better paying jobs that leverage skills they already possess!
-      </p>
-    </div>
-    <div v-else>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-group">
+            <div class="card">
+              <h5 class="card-header">Why it is called SITH?</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Because we are using data from the
+                  <a
+                      href="https://www.nationalskillscommission.gov.au/our-work/jobs-and-education-data-infrastructure-jedi">
+                    Jobs and Education Data Infrastructure (JEDI)</a>
+                  National Skill Classification dataset.
+                  We are also using the <a href="https://api.gov.au/service/715cdfd0-4742-402e-8729-086a7fd42a51">ABS
+                  API</a> to get salary data broken down by gender and ANZSCO code to produce salary information.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <h5 class="card-header">How does it work?</h5>
+              <div class="card-body">
+                <p class="card-text">
+                SITH pulls data from a number of government sources in order to give Australian citizens insights
+                  that can help
+                  them plan their careers, transition to better paying jobs, or even find a new career that requires
+                  similar
+                  skills
+                  to their previous employment.
+                The ANZSCO clasification was first loaded into an
+                  <a href="https://aristotle-te-govhack-20-z09cgb.herokuapp.com/home/">Aristotle Metadata Registry</a>,
+                  which exposes a comprehensive API allowing us to search and query the classification.
+                  This was connected to a autocomplete search component, allowing users to search for any profession in
+                  milliseconds.
+                  Once a profession was selected, the classification item was fetched from the API, as well as a custom
+                  similarity  API  to identify other professions with shared skills.
+                  These professions were then cross referenced with ABS salary information, so that users could find
+                  upwards moves for their careers - better paying jobs that leverage skills they already possess!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <div v-if="professionUUID">
       <JobInformation :uuid="professionUUID" :main-occupation="true" code="1311"></JobInformation>
       <h2 class="text-center underline">
         Other similar jobs
@@ -121,6 +138,7 @@ export default {
             'compare_code': data.data['code']
           })
         }
+      }).catch((error) => {
       }).catch((error) => {
         this.errors.push(error)
       }).finally(() => {
