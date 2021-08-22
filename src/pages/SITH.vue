@@ -45,8 +45,8 @@
                   by making sure the JEDI and the SITH exist in balance.
                 </p>
                 <p class="card-text">
-                  We are also using the <a href="https://api.gov.au/service/715cdfd0-4742-402e-8729-086a7fd42a51">ABS
-                  API</a> to get salary data broken down by gender and ANZSCO code to produce comparative salary information.
+                  We are also using <a href="https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/employee-earnings-and-hours-australia/latest-release">ABS
+                  Data</a> to get salary data broken down by gender and ANZSCO code to produce comparative salary information.
                 </p>
               </div>
             </div>

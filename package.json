@@ -1,7 +1,7 @@
 {
     "name": "sith-govhack",
     "version": "1.0.0",
-    "description": "SITH - Skills Interactive Transferability Handbook",
+    "description": "SITH - Skills Identification & Transferability Handbook",
     "main": "index.js",
     "scripts": {
         "serve": "webpack-dev-server --config ./webpack.dev.js --hot --host 0.0.0.0 --public=localhost:8080",
