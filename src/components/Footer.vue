@@ -18,8 +18,8 @@
     flex: 0 0 auto;
     width: 100%;
     background-color: midnightblue;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 footer .promo {
