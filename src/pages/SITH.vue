@@ -6,43 +6,49 @@
       <div class="row">
         <div class="col"></div>
         <div class="col">
-        <Select2
-            :value="professionUUID"
-            v-model="professionUUID"
-            :complete-url="classificationItemEndpoint"
-            :select-by="idtype.UUID"
-            placeholder="Enter a profession to get started..."
-        />
-          </div>
+          <Select2
+              :value="professionUUID"
+              v-model="professionUUID"
+              :complete-url="classificationItemEndpoint"
+              :select-by="idtype.UUID"
+              placeholder="Enter a profession to get started..."
+          />
+        </div>
         <div class="col"></div>
       </div>
     </div>
     <Loading v-if="!ready"/>
     <div v-if="!professionUUID">
       <p>Use <strong>SITH</strong> to find relevant jobs based on your existing skills and knowledge.</p>
-      <p>Pay and concordance information is only available for 4-digit anzsco codes. Others may not work properly.</p>
-        Check these out first:
-        <ul>
-          <li><strong>1333</strong> - Importers, Exporters and Wholesalers</li>
-          <li><strong>2322</strong> - Surveyors and Spatial Scientists</li>
-          <li><strong>6311</strong> - Checkout Operators and Office Cashiers</li>
-        </ul>
+      <p>Pay and concordance information is only available for 4-digit ANZSCO codes. Other codes do not have full
+        functionality at this point.</p>
+      Check these out first:
+      <ul>
+        <li><strong>1333</strong> - Importers, Exporters and Wholesalers</li>
+        <li><strong>2322</strong> - Surveyors and Spatial Scientists</li>
+        <li><strong>6311</strong> - Checkout Operators and Office Cashiers</li>
+      </ul>
       <h2>Why is it called SITH?</h2>
       <p>
         Because we are using data from the
-        <a class="white" href="https://www.nationalskillscommission.gov.au/our-work/jobs-and-education-data-infrastructure-jedi">
+        <a class="white"
+           href="https://www.nationalskillscommission.gov.au/our-work/jobs-and-education-data-infrastructure-jedi">
           Jobs and Education Data Infrastructure (JEDI)</a>
         National Skill Classification dataset.
-        We are also using the <a class="white" href="https://api.gov.au/service/715cdfd0-4742-402e-8729-086a7fd42a51">ABS API</a> to get salary data broken down by gender and ANZSCO code to produce salary information.
+        We are also using the <a class="white" href="https://api.gov.au/service/715cdfd0-4742-402e-8729-086a7fd42a51">ABS
+        API</a> to get salary data broken down by gender and ANZSCO code to produce salary information.
       </p>
       <h2>How it works</h2>
       <p>TBD</p>
     </div>
     <div v-else>
       <JobInformation :uuid="professionUUID" :main-occupation="true" code="1311"></JobInformation>
-      <h2 class="text-center underline">Other similar jobs</h2>
+      <h2 class="text-center underline">
+        Other similar jobs
+      </h2>
       <div v-for="item in similarClassificationItems" :key="item['item_id']">
-        <JobInformation :uuid="item['item_id']" :common-skills="item['skills']" :code="item['code']" :compare-code="item['compare_code']"></JobInformation>
+        <JobInformation :uuid="item['item_id']" :common-skills="item['skills']" :code="item['code']"
+                        :compare-code="item['compare_code']"></JobInformation>
       </div>
     </div>
   </div>
@@ -95,7 +101,7 @@ export default {
       similarProfessionPromise.then((data) => {
         for (let item of data.data['similar items']) {
           this.similarClassificationItems.push({
-            'item_id': item['item_id'], 'similarity' : item['similarity'],
+            'item_id': item['item_id'], 'similarity': item['similarity'],
             'code': item['code'],
             'skills': item['common skill list'],
             'compare_code': data.data['code']
