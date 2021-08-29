@@ -4,7 +4,7 @@ import {NiceError} from 'src/lib/error.js'
 
 function graphqlQuery(query, variables) {
     // Url for our registries graphql endpoint
-    const graphql_url = 'https://aristotle-te-govhack-20-z09cgb.herokuapp.com/api/graphql/json'
+    const graphql_url = 'https://aristotle-te-govhack-20-682cg4.herokuapp.com/api/graphql/json'
     const query_obj = {query: query, variables: variables}
     return axios.post(graphql_url, query_obj, {
             headers: {
