@@ -3,7 +3,7 @@
 ## Why is it called SITH?
 We're using data from the Jobs and Education Data Infrastructure (JEDI) National Skill Classification dataset to help people find new job opportunities.
 
-We are also using the ABS API to get salary data broken down by gender and ANZSCO code to produce compara
+We are also using the ABS Data to get salary data broken down by gender and ANZSCO code to produce compara
 tive salary information.
 
 
@@ -19,3 +19,4 @@ This was connected to a autocomplete search component, allowing users to search 
 
 Once a profession was selected, the classification item was fetched from the API, as well as using a classification similarity API to identify other professions with shared skills.
 
+![image](https://user-images.githubusercontent.com/2173174/130344806-0421beae-22b8-481b-9dda-03b569440a54.png)
