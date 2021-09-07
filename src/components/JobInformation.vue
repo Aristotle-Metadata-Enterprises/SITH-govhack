@@ -21,7 +21,7 @@
       <div class="skills-list">
         <span v-for="item in mainSkills" :key="item['targetItem']['title']">
           <span class="badge badge-info smallskill mr-2">
-            <a target="_blank" :href="`https://aristotle-te-govhack-20-682cg4.herokuapp.com/redirect/to/classificationitem/${item['uuid']}`">
+            <a target="_blank" :href="`https://aristotle-te-govhack-20-qrjjxm.herokuapp.com/redirect/to/classificationitem/${item['uuid']}`">
               {{ item['targetItem']['title'] }}
             </a>
           </span>
@@ -33,7 +33,7 @@
       <div class="skills-list">
         <span v-for="item in similarSkills" :key="item['title']">
           <span class="badge badge-info smallskill mr-2">
-            <a target="_blank" :href="`https://aristotle-te-govhack-20-682cg4.herokuapp.com/redirect/to/classificationitem/${item['uuid']}`">
+            <a target="_blank" :href="`https://aristotle-te-govhack-20-qrjjxm.herokuapp.com/redirect/to/classificationitem/${item['uuid']}`">
               {{ item['title'] }}
             </a>
           </span>
@@ -101,8 +101,8 @@ export default {
       return this.commonSkills.slice(0, 10)
     },
     anzscoUrl: function () {
-      return "https://aristotle-te-govhack-20-682cg4.herokuapp.com/item/6/classificationviewer/"+this.uuid
-      // return "https://aristotle-te-govhack-20-682cg4.herokuapp.com/redirect/to/classificationitem/"+this.uuid
+      return "https://aristotle-te-govhack-20-qrjjxm.herokuapp.com/item/6/classificationviewer/"+this.uuid
+      // return "https://aristotle-te-govhack-20-qrjjxm.herokuapp.com/redirect/to/classificationitem/"+this.uuid
     },
     anzscoCode: function () {
       if (this.fetchedAnzscoCode === null) {

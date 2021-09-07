@@ -71,9 +71,9 @@
               <h5 class="card-header">How did we use Aristotle?</h5>
               <div class="card-body">
                 <p class="card-text">
-                The <a href="https://aristotle-te-govhack-20-682cg4.herokuapp.com/item/6/classificationviewer">ANZSCO</a> and
+                The <a href="https://aristotle-te-govhack-20-qrjjxm.herokuapp.com/item/6/classificationviewer">ANZSCO</a> and
                   <a href="https://www.nationalskillscommission.gov.au/our-work/australian-skills-classification">Australian Skills Classification</a> were first loaded into an
-                  <a href="https://aristotle-te-govhack-20-682cg4.herokuapp.com/home/">Aristotle Metadata Registry</a>,
+                  <a href="https://aristotle-te-govhack-20-qrjjxm.herokuapp.com/home/">Aristotle Metadata Registry</a>,
                   which exposes a comprehensive API allowing us to search and query the classification.
                 </p>
                 <p class="card-text">
@@ -125,7 +125,7 @@ export default {
     // The URL of the registry that is being queried
     registryURL: {
       type: String,
-      default: 'https://aristotle-te-govhack-20-682cg4.herokuapp.com'
+      default: 'https://aristotle-te-govhack-20-qrjjxm.herokuapp.com'
     },
     // The UUID of the anzsco code for the
     anzscoUUID: {
@@ -144,7 +144,7 @@ export default {
       return `${this.registryURL}/ac/classification/${this.anzscoUUID}/items`
     },
     similarClassificationItemEndpoint: function () {
-      return `https://aristotle-te-govhack-20-682cg4.herokuapp.com/api/internal/classification_similarity/${this.professionUUID}`
+      return `https://aristotle-te-govhack-20-qrjjxm.herokuapp.com/api/internal/classification_similarity/${this.professionUUID}`
     }
   },
   watch: {
